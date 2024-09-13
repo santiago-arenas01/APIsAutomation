@@ -1,0 +1,154 @@
+2024-09-13 18:32:30.276 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-09-13 18:32:30.279 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Change the phone number of the first Client named Laura
+2024-09-13 18:32:30.280 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-09-13 18:32:33.712 INFO [api.stepDefinitions.ClientSteps:39] - Created client: Client(name=Marielle, lastName=Vandervort, country=Bangladesh, city=North Hollisville, email=mellisa.pfeffer@hotmail.com, phone=(603) 330-5708, id=207-59-9808)
+2024-09-13 18:32:34.021 INFO [api.stepDefinitions.ClientSteps:39] - Created client: Client(name=Denyse, lastName=Mertz, country=Gabon, city=Lawrencefort, email=earle.crona@yahoo.com, phone=129-970-6840, id=632-26-5997)
+2024-09-13 18:32:34.294 INFO [api.stepDefinitions.ClientSteps:39] - Created client: Client(name=Marceline, lastName=Orn, country=Niger, city=West Dolorisburgh, email=vikki.pfannerstill@yahoo.com, phone=(716) 752-0512, id=810-41-4026)
+2024-09-13 18:32:34.587 INFO [api.stepDefinitions.ClientSteps:39] - Created client: Client(name=Kyoko, lastName=Hintz, country=French Guiana, city=Rempelbury, email=teofila.tremblay@yahoo.com, phone=(854) 935-5387 x09374, id=227-69-2571)
+2024-09-13 18:32:34.815 INFO [api.stepDefinitions.ClientSteps:39] - Created client: Client(name=Jayson, lastName=Rolfson, country=Gabon, city=Konopelskiview, email=kristan.hauck@gmail.com, phone=388.257.8999, id=014-49-3830)
+2024-09-13 18:32:35.034 INFO [api.stepDefinitions.ClientSteps:39] - Created client: Client(name=Nena, lastName=Gulgowski, country=Somalia, city=South Hassanside, email=mechelle.barton@hotmail.com, phone=(677) 803-0810 x935, id=449-71-4272)
+2024-09-13 18:32:35.297 INFO [api.stepDefinitions.ClientSteps:39] - Created client: Client(name=Barbie, lastName=Green, country=Vietnam, city=Nienowburgh, email=arletha.stark@hotmail.com, phone=(502) 581-6109 x163, id=661-14-3194)
+2024-09-13 18:32:35.523 INFO [api.stepDefinitions.ClientSteps:39] - Created client: Client(name=Jeneva, lastName=Cole, country=United States Minor Outlying Islands, city=Adrianeberg, email=abigail.cummings@hotmail.com, phone=297.782.8902 x5213, id=166-61-6421)
+2024-09-13 18:32:35.750 INFO [api.stepDefinitions.ClientSteps:39] - Created client: Client(name=Barry, lastName=Gibson, country=Uganda, city=North Irving, email=bradford.lueilwitz@hotmail.com, phone=1-822-406-0060 x2571, id=438-78-2120)
+2024-09-13 18:32:36.044 INFO [api.stepDefinitions.ClientSteps:39] - Created client: Client(name=Rikki, lastName=Morar, country=Austria, city=Huelsberg, email=jerrold.langosh@yahoo.com, phone=1-553-230-7513 x200, id=248-57-8877)
+2024-09-13 18:32:36.614 INFO [api.stepDefinitions.ClientSteps:113] - [
+    {
+        "name": "Marielle",
+        "lastName": "Vandervort",
+        "country": "Bangladesh",
+        "city": "North Hollisville",
+        "email": "mellisa.pfeffer@hotmail.com",
+        "phone": "(603) 330-5708",
+        "id": "1"
+    },
+    {
+        "name": "Denyse",
+        "lastName": "Mertz",
+        "country": "Gabon",
+        "city": "Lawrencefort",
+        "email": "earle.crona@yahoo.com",
+        "phone": "129-970-6840",
+        "id": "2"
+    },
+    {
+        "name": "Marceline",
+        "lastName": "Orn",
+        "country": "Niger",
+        "city": "West Dolorisburgh",
+        "email": "vikki.pfannerstill@yahoo.com",
+        "phone": "(716) 752-0512",
+        "id": "3"
+    },
+    {
+        "name": "Kyoko",
+        "lastName": "Hintz",
+        "country": "French Guiana",
+        "city": "Rempelbury",
+        "email": "teofila.tremblay@yahoo.com",
+        "phone": "(854) 935-5387 x09374",
+        "id": "4"
+    },
+    {
+        "name": "Jayson",
+        "lastName": "Rolfson",
+        "country": "Gabon",
+        "city": "Konopelskiview",
+        "email": "kristan.hauck@gmail.com",
+        "phone": "388.257.8999",
+        "id": "5"
+    },
+    {
+        "name": "Nena",
+        "lastName": "Gulgowski",
+        "country": "Somalia",
+        "city": "South Hassanside",
+        "email": "mechelle.barton@hotmail.com",
+        "phone": "(677) 803-0810 x935",
+        "id": "6"
+    },
+    {
+        "name": "Barbie",
+        "lastName": "Green",
+        "country": "Vietnam",
+        "city": "Nienowburgh",
+        "email": "arletha.stark@hotmail.com",
+        "phone": "(502) 581-6109 x163",
+        "id": "7"
+    },
+    {
+        "name": "Jeneva",
+        "lastName": "Cole",
+        "country": "United States Minor Outlying Islands",
+        "city": "Adrianeberg",
+        "email": "abigail.cummings@hotmail.com",
+        "phone": "297.782.8902 x5213",
+        "id": "8"
+    },
+    {
+        "name": "Barry",
+        "lastName": "Gibson",
+        "country": "Uganda",
+        "city": "North Irving",
+        "email": "bradford.lueilwitz@hotmail.com",
+        "phone": "1-822-406-0060 x2571",
+        "id": "9"
+    },
+    {
+        "name": "Rikki",
+        "lastName": "Morar",
+        "country": "Austria",
+        "city": "Huelsberg",
+        "email": "jerrold.langosh@yahoo.com",
+        "phone": "1-553-230-7513 x200",
+        "id": "10"
+    }
+]
+2024-09-13 18:32:37.097 INFO [api.stepDefinitions.ClientSteps:133] - Updated client: Client(name=Laura, lastName=Smith, country=USA, city=New York, email=laura.smith@example.com, phone=555-987-6543, id=null)
+2024-09-13 18:32:37.450 INFO [api.stepDefinitions.ClientSteps:102] - Successfully Validated schema from Client object
+2024-09-13 18:32:37.771 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Marielle, lastName=Vandervort, country=Bangladesh, city=North Hollisville, email=mellisa.pfeffer@hotmail.com, phone=(603) 330-5708, id=1)
+2024-09-13 18:32:37.771 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Denyse, lastName=Mertz, country=Gabon, city=Lawrencefort, email=earle.crona@yahoo.com, phone=129-970-6840, id=2)
+2024-09-13 18:32:37.771 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Marceline, lastName=Orn, country=Niger, city=West Dolorisburgh, email=vikki.pfannerstill@yahoo.com, phone=(716) 752-0512, id=3)
+2024-09-13 18:32:37.772 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Kyoko, lastName=Hintz, country=French Guiana, city=Rempelbury, email=teofila.tremblay@yahoo.com, phone=(854) 935-5387 x09374, id=4)
+2024-09-13 18:32:37.772 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Jayson, lastName=Rolfson, country=Gabon, city=Konopelskiview, email=kristan.hauck@gmail.com, phone=388.257.8999, id=5)
+2024-09-13 18:32:37.772 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Nena, lastName=Gulgowski, country=Somalia, city=South Hassanside, email=mechelle.barton@hotmail.com, phone=(677) 803-0810 x935, id=6)
+2024-09-13 18:32:37.772 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Barbie, lastName=Green, country=Vietnam, city=Nienowburgh, email=arletha.stark@hotmail.com, phone=(502) 581-6109 x163, id=7)
+2024-09-13 18:32:37.772 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Jeneva, lastName=Cole, country=United States Minor Outlying Islands, city=Adrianeberg, email=abigail.cummings@hotmail.com, phone=297.782.8902 x5213, id=8)
+2024-09-13 18:32:37.772 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Barry, lastName=Gibson, country=Uganda, city=North Irving, email=bradford.lueilwitz@hotmail.com, phone=1-822-406-0060 x2571, id=9)
+2024-09-13 18:32:37.773 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Rikki, lastName=Morar, country=Austria, city=Huelsberg, email=jerrold.langosh@yahoo.com, phone=1-553-230-7513 x200, id=10)
+2024-09-13 18:32:37.773 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Laura, lastName=Smith, country=USA, city=New York, email=laura.smith@example.com, phone=555-987-6543, id=11)
+2024-09-13 18:32:38.021 INFO [api.stepDefinitions.ClientSteps:145] - Deleted client with ID: 1
+2024-09-13 18:32:38.232 INFO [api.stepDefinitions.ClientSteps:145] - Deleted client with ID: 2
+2024-09-13 18:32:38.480 INFO [api.stepDefinitions.ClientSteps:145] - Deleted client with ID: 3
+2024-09-13 18:32:38.759 INFO [api.stepDefinitions.ClientSteps:145] - Deleted client with ID: 4
+2024-09-13 18:32:39.002 INFO [api.stepDefinitions.ClientSteps:145] - Deleted client with ID: 5
+2024-09-13 18:32:39.252 INFO [api.stepDefinitions.ClientSteps:145] - Deleted client with ID: 6
+2024-09-13 18:32:39.537 INFO [api.stepDefinitions.ClientSteps:145] - Deleted client with ID: 7
+2024-09-13 18:32:39.747 INFO [api.stepDefinitions.ClientSteps:145] - Deleted client with ID: 8
+2024-09-13 18:32:39.957 INFO [api.stepDefinitions.ClientSteps:145] - Deleted client with ID: 9
+2024-09-13 18:32:40.168 INFO [api.stepDefinitions.ClientSteps:145] - Deleted client with ID: 10
+2024-09-13 18:32:40.380 INFO [api.stepDefinitions.ClientSteps:145] - Deleted client with ID: 11
+2024-09-13 18:32:40.381 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-09-13 18:32:40.381 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Change the phone number of the first Client named Laura
+2024-09-13 18:32:40.381 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-13 18:32:40.392 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-09-13 18:32:40.392 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update and delete a New Client
+2024-09-13 18:32:40.393 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-09-13 18:32:40.891 INFO [api.stepDefinitions.ClientSteps:39] - Created client: Client(name=Myesha, lastName=Auer, country=Guadeloupe, city=Aufderharville, email=delfina.collier@yahoo.com, phone=(616) 830-5819 x81222, id=071-35-9994)
+2024-09-13 18:32:41.307 INFO [api.stepDefinitions.ClientSteps:113] - [
+    {
+        "name": "Myesha",
+        "lastName": "Auer",
+        "country": "Guadeloupe",
+        "city": "Aufderharville",
+        "email": "delfina.collier@yahoo.com",
+        "phone": "(616) 830-5819 x81222",
+        "id": "1"
+    }
+]
+2024-09-13 18:32:41.519 INFO [api.stepDefinitions.ClientSteps:133] - Updated client: Client(name=Manuel, lastName=Muñoz, country=Colombia, city=Bogota, email=mf.munoz@globant.com, phone=999-543-1298, id=null)
+2024-09-13 18:32:41.527 INFO [api.stepDefinitions.ClientSteps:102] - Successfully Validated schema from Client object
+2024-09-13 18:32:41.769 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Manuel, lastName=Muñoz, country=Colombia, city=Bogota, email=mf.munoz@globant.com, phone=999-543-1298, id=1)
+2024-09-13 18:32:42.014 INFO [api.stepDefinitions.ClientSteps:145] - Deleted client with ID: 1
+2024-09-13 18:32:42.015 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-09-13 18:32:42.015 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Update and delete a New Client
+2024-09-13 18:32:42.015 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************

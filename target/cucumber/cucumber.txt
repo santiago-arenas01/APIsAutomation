@@ -1,0 +1,22 @@
+
+@active @smoke
+Scenario: Change the phone number of the first Client named Laura # src/test/resources/features/client_testing_crud.feature:5
+  Given there are at least 10 registered clients in the system    # com.testing.api.stepDefinitions.ClientSteps.thereAreAtLeast10RegisteredClientsInTheSystem(int)
+  And I send a GET request to view all the clients                # com.testing.api.stepDefinitions.ClientSteps.iSendAGETRequestToViewAllTheClients()
+  And I send a POST request to create a client named Laura        # com.testing.api.stepDefinitions.ClientSteps.iSendAPOSTRequestToCreateAClientNamedLaura()
+  When I send a PUT request to update the client with ID "11"     # com.testing.api.stepDefinitions.ClientSteps.updateClientPhoneNumber(java.lang.String,java.lang.String)
+  Then the response should have a status code of 200              # com.testing.api.stepDefinitions.ClientSteps.theResponseShouldHaveAStatusCodeOf(int)
+  And the response should have the following details:             # com.testing.api.stepDefinitions.ClientSteps.theResponseShouldHaveTheFollowingDetails(io.cucumber.datatable.DataTable)
+    | Name  | LastName | Country | City     | Email                   | Phone        | Id |
+    | Laura | Smith    | USA     | New York | laura.smith@example.com | 555-987-6543 | 11 |
+  And validates the response with client JSON schema              # com.testing.api.stepDefinitions.ClientSteps.userValidatesResponseWithClientJSONSchema()
+  And I delete all registered clients                             # com.testing.api.stepDefinitions.ClientSteps.deleteAllRegisteredClients()
+
+@active @smoke
+Scenario: Update and delete a New Client                      # src/test/resources/features/client_testing_crud.feature:28
+  Given there are at least 1 registered clients in the system # com.testing.api.stepDefinitions.ClientSteps.thereAreAtLeast10RegisteredClientsInTheSystem(int)
+  And I send a GET request to view all the clients            # com.testing.api.stepDefinitions.ClientSteps.iSendAGETRequestToViewAllTheClients()
+  When I send a PUT request to update the client with ID "1"  # com.testing.api.stepDefinitions.ClientSteps.updateClientPhoneNumber(java.lang.String,java.lang.String)
+  Then the response should have a status code of 200          # com.testing.api.stepDefinitions.ClientSteps.theResponseShouldHaveAStatusCodeOf(int)
+  And validates the response with client JSON schema          # com.testing.api.stepDefinitions.ClientSteps.userValidatesResponseWithClientJSONSchema()
+  And I delete all registered clients                         # com.testing.api.stepDefinitions.ClientSteps.deleteAllRegisteredClients()

@@ -83,6 +83,14 @@ public class ClientRequest extends BaseRequest {
         return gson.fromJson(clientJson, Client.class);
     }
 
+    public Client findClientByName(String name, @NotNull Response response) {
+        List<Client> clientList = getClientsEntity(response); // Get all clients
+        return clientList.stream()
+                .filter(c -> c.getName().equalsIgnoreCase(name))
+                .findFirst()
+                .orElseThrow(() -> new RuntimeException("Client not found: " + name));
+    }
+
     public boolean validateSchema(Response response, String schemaPath) {
         try {
             response.then()
@@ -94,4 +102,5 @@ public class ClientRequest extends BaseRequest {
             return false;
         }
     }
+
 }
