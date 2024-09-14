@@ -12,12 +12,16 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
 
+/**
+ * The type Resource request.
+ */
 public class ResourceRequest extends BaseRequest {
     private String endpoint;
 
     /**
      * Get Client list
-     * @return rest-assured response
+     *
+     * @return rest -assured response
      */
     public Response getResources() {
         endpoint = String.format(Constants.URL, Constants.RESOURCES_PATH);
@@ -25,19 +29,10 @@ public class ResourceRequest extends BaseRequest {
     }
 
     /**
-     * Get client by id
-     * @param resourceId string
-     * @return rest-assured response
-     */
-    public Response getResource(String resourceId) {
-        endpoint = String.format(Constants.URL_WITH_PARAM, Constants.RESOURCES_PATH, resourceId);
-        return requestGet(endpoint, createBaseHeaders());
-    }
-
-    /**
      * Create resource
+     *
      * @param resource model
-     * @return rest-assured response
+     * @return rest -assured response
      */
     public Response createResource(Resource resource) {
         endpoint = String.format(Constants.URL, Constants.RESOURCES_PATH);
@@ -46,9 +41,10 @@ public class ResourceRequest extends BaseRequest {
 
     /**
      * Update resource by id
-     * @param resource model
+     *
+     * @param resource   model
      * @param resourceId string
-     * @return rest-assured response
+     * @return rest -assured response
      */
     public Response updateResource(Resource resource, String resourceId) {
         endpoint = String.format(Constants.URL_WITH_PARAM, Constants.RESOURCES_PATH, resourceId);
@@ -57,36 +53,40 @@ public class ResourceRequest extends BaseRequest {
 
     /**
      * Delete resource by id
+     *
      * @param resourceId string
-     * @return rest-assured response
+     * @return rest -assured response
      */
     public Response deleteResource(String resourceId) {
         endpoint = String.format(Constants.URL_WITH_PARAM, Constants.RESOURCES_PATH, resourceId);
         return requestDelete(endpoint, createBaseHeaders());
     }
 
-    public Resource getResourceEntity(@NotNull Response response) {
-        return response.as(Resource.class);
-    }
-
+    /**
+     * Gets resources entity.
+     *
+     * @param response the response
+     * @return the resources entity
+     */
     public List<Resource> getResourcesEntity(@NotNull Response response) {
         JsonPath jsonPath = response.jsonPath();
         return jsonPath.getList("", Resource.class);
     }
 
-    public Client getResourceEntity(String clientJson) {
-        Gson gson = new Gson();
-        return gson.fromJson(clientJson, Client.class);
-    }
-
+    /**
+     * Validate schema boolean.
+     *
+     * @param response   the response
+     * @param schemaPath the schema path
+     * @return the boolean
+     */
     public boolean validateSchema(Response response, String schemaPath) {
         try {
             response.then()
                     .assertThat()
                     .body(JsonSchemaValidator.matchesJsonSchemaInClasspath(schemaPath));
-            return true; // Return true if the assertion passes
+            return true;
         } catch (AssertionError e) {
-            // Assertion failed, return false
             return false;
         }
     }

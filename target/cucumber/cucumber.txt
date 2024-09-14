@@ -20,3 +20,30 @@ Scenario: Update and delete a New Client                      # src/test/resourc
   Then the response should have a status code of 200          # com.testing.api.stepDefinitions.ClientSteps.theResponseShouldHaveAStatusCodeOf(int)
   And validates the response with client JSON schema          # com.testing.api.stepDefinitions.ClientSteps.userValidatesResponseWithClientJSONSchema()
   And I delete all registered clients                         # com.testing.api.stepDefinitions.ClientSteps.deleteAllRegisteredClients()
+
+@active @smoke
+Scenario: Get the list of active resources                     # src/test/resources/features/resource_testing_crud.feature:5
+  Given there are at least 5 active resources in the system    # com.testing.api.stepDefinitions.ResourceSteps.thereAreAtLeastNRegisteredResourcesInTheSystem(int)
+  And I send a GET request to view all active resources        # com.testing.api.stepDefinitions.ResourceSteps.iSendAGETRequestToViewAllActiveResources()
+  When I update the status of all active resources to inactive # com.testing.api.stepDefinitions.ResourceSteps.iUpdateAllActiveResourcesToInactive()
+  And I delete all registered resources                        # com.testing.api.stepDefinitions.ResourceSteps.deleteAllRegisteredResources()
+
+@active @smoke
+Scenario: Update the last created resource                     # src/test/resources/features/resource_testing_crud.feature:12
+  Given there are at least 15 active resources in the system   # com.testing.api.stepDefinitions.ResourceSteps.thereAreAtLeastNRegisteredResourcesInTheSystem(int)
+  And I find the latest resource                               # com.testing.api.stepDefinitions.ResourceSteps.iFindTheLatestResource()
+  And I update all the parameters of this resource             # com.testing.api.stepDefinitions.ResourceSteps.IUpdateAllTheParametersOfThisResource()
+  Then the resource response should have a status code of 200  # com.testing.api.stepDefinitions.ResourceSteps.theResourceResponseShouldHaveAStatusCodeOf(int)
+      java.lang.AssertionError: expected:<200> but was:<429>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at com.testing.api.stepDefinitions.ResourceSteps.theResourceResponseShouldHaveAStatusCodeOf(ResourceSteps.java:93)
+	at ✽.the resource response should have a status code of 200(file:///C:/Users/santiago.arenas/Downloads/assuredApi/assuredApi/src/test/resources/features/resource_testing_crud.feature:16)
+
+  And the resource response should have the following details: # com.testing.api.stepDefinitions.ResourceSteps.iHaveAResourceWithTheFollowingDetails(io.cucumber.datatable.DataTable)
+    | Name     | Trademark | Stock | Price  | Description  | Tags                       | Active |
+    | Computer | Globant   | 55    | 200.05 | New Computer | computer, PC, tech, coding | false  |
+  And validates the response with resource JSON schema         # com.testing.api.stepDefinitions.ResourceSteps.userValidatesResponseWithResourceJSONSchema()
+  And I delete all registered resources                        # com.testing.api.stepDefinitions.ResourceSteps.deleteAllRegisteredResources()

@@ -1,4 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: com.testing.api.runner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.57 s -- in com.testing.api.runner.TestRunner
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 22.05 s <<< FAILURE! -- in com.testing.api.runner.TestRunner
+Resource testing CRUD.Update the last created resource -- Time elapsed: 4.422 s <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<429>
+	at com.testing.api.stepDefinitions.ResourceSteps.theResourceResponseShouldHaveAStatusCodeOf(ResourceSteps.java:93)
+	at ✽.the resource response should have a status code of 200(file:///C:/Users/santiago.arenas/Downloads/assuredApi/assuredApi/src/test/resources/features/resource_testing_crud.feature:16)
+

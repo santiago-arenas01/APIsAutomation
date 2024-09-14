@@ -1,154 +1,249 @@
-2024-09-13 18:32:30.276 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
-2024-09-13 18:32:30.279 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Change the phone number of the first Client named Laura
-2024-09-13 18:32:30.280 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
-2024-09-13 18:32:33.712 INFO [api.stepDefinitions.ClientSteps:39] - Created client: Client(name=Marielle, lastName=Vandervort, country=Bangladesh, city=North Hollisville, email=mellisa.pfeffer@hotmail.com, phone=(603) 330-5708, id=207-59-9808)
-2024-09-13 18:32:34.021 INFO [api.stepDefinitions.ClientSteps:39] - Created client: Client(name=Denyse, lastName=Mertz, country=Gabon, city=Lawrencefort, email=earle.crona@yahoo.com, phone=129-970-6840, id=632-26-5997)
-2024-09-13 18:32:34.294 INFO [api.stepDefinitions.ClientSteps:39] - Created client: Client(name=Marceline, lastName=Orn, country=Niger, city=West Dolorisburgh, email=vikki.pfannerstill@yahoo.com, phone=(716) 752-0512, id=810-41-4026)
-2024-09-13 18:32:34.587 INFO [api.stepDefinitions.ClientSteps:39] - Created client: Client(name=Kyoko, lastName=Hintz, country=French Guiana, city=Rempelbury, email=teofila.tremblay@yahoo.com, phone=(854) 935-5387 x09374, id=227-69-2571)
-2024-09-13 18:32:34.815 INFO [api.stepDefinitions.ClientSteps:39] - Created client: Client(name=Jayson, lastName=Rolfson, country=Gabon, city=Konopelskiview, email=kristan.hauck@gmail.com, phone=388.257.8999, id=014-49-3830)
-2024-09-13 18:32:35.034 INFO [api.stepDefinitions.ClientSteps:39] - Created client: Client(name=Nena, lastName=Gulgowski, country=Somalia, city=South Hassanside, email=mechelle.barton@hotmail.com, phone=(677) 803-0810 x935, id=449-71-4272)
-2024-09-13 18:32:35.297 INFO [api.stepDefinitions.ClientSteps:39] - Created client: Client(name=Barbie, lastName=Green, country=Vietnam, city=Nienowburgh, email=arletha.stark@hotmail.com, phone=(502) 581-6109 x163, id=661-14-3194)
-2024-09-13 18:32:35.523 INFO [api.stepDefinitions.ClientSteps:39] - Created client: Client(name=Jeneva, lastName=Cole, country=United States Minor Outlying Islands, city=Adrianeberg, email=abigail.cummings@hotmail.com, phone=297.782.8902 x5213, id=166-61-6421)
-2024-09-13 18:32:35.750 INFO [api.stepDefinitions.ClientSteps:39] - Created client: Client(name=Barry, lastName=Gibson, country=Uganda, city=North Irving, email=bradford.lueilwitz@hotmail.com, phone=1-822-406-0060 x2571, id=438-78-2120)
-2024-09-13 18:32:36.044 INFO [api.stepDefinitions.ClientSteps:39] - Created client: Client(name=Rikki, lastName=Morar, country=Austria, city=Huelsberg, email=jerrold.langosh@yahoo.com, phone=1-553-230-7513 x200, id=248-57-8877)
-2024-09-13 18:32:36.614 INFO [api.stepDefinitions.ClientSteps:113] - [
+2024-09-13 20:02:00.632 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-09-13 20:02:00.635 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Change the phone number of the first Client named Laura
+2024-09-13 20:02:00.636 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-09-13 20:02:04.148 INFO [api.stepDefinitions.ClientSteps:47] - Created client: Client(name=Mirta, lastName=Brown, country=Dominican Republic, city=Lake Coy, email=hugo.bradtke@hotmail.com, phone=611-294-1131 x1033, id=554-75-9363)
+2024-09-13 20:02:04.460 INFO [api.stepDefinitions.ClientSteps:47] - Created client: Client(name=Augustus, lastName=Cummerata, country=Turkmenistan, city=North Jasper, email=brendon.conn@gmail.com, phone=(967) 081-8483 x18408, id=598-70-6724)
+2024-09-13 20:02:04.743 INFO [api.stepDefinitions.ClientSteps:47] - Created client: Client(name=Broderick, lastName=Barton, country=Israel, city=West Myrtiemouth, email=mellie.littel@hotmail.com, phone=(350) 580-6191, id=705-70-9266)
+2024-09-13 20:02:05.049 INFO [api.stepDefinitions.ClientSteps:47] - Created client: Client(name=Demarcus, lastName=Emard, country=Montserrat, city=Lake Karly, email=gordon.cassin@yahoo.com, phone=501.890.4950 x0487, id=005-41-8337)
+2024-09-13 20:02:05.339 INFO [api.stepDefinitions.ClientSteps:47] - Created client: Client(name=Rob, lastName=Osinski, country=Syrian Arab Republic, city=Migueltown, email=matt.schumm@hotmail.com, phone=085-588-6815 x92651, id=040-41-7447)
+2024-09-13 20:02:05.603 INFO [api.stepDefinitions.ClientSteps:47] - Created client: Client(name=Arthur, lastName=Sauer, country=Switzerland, city=Haichester, email=theresa.deckow@yahoo.com, phone=1-086-420-9166, id=835-27-4306)
+2024-09-13 20:02:05.892 INFO [api.stepDefinitions.ClientSteps:47] - Created client: Client(name=Duncan, lastName=Stiedemann, country=Anguilla, city=Augustabury, email=rufus.kshlerin@yahoo.com, phone=(090) 543-6531 x388, id=820-91-6325)
+2024-09-13 20:02:06.178 INFO [api.stepDefinitions.ClientSteps:47] - Created client: Client(name=Thomas, lastName=Wiza, country=British Indian Ocean Territory (Chagos Archipelago), city=Alyceview, email=tambra.auer@hotmail.com, phone=1-572-973-3620 x0474, id=265-27-0962)
+2024-09-13 20:02:06.471 INFO [api.stepDefinitions.ClientSteps:47] - Created client: Client(name=Tawnya, lastName=Lebsack, country=Greece, city=West Lindy, email=dominque.bartell@gmail.com, phone=1-846-147-5288 x30122, id=131-99-6235)
+2024-09-13 20:02:06.689 INFO [api.stepDefinitions.ClientSteps:47] - Created client: Client(name=Mora, lastName=Greenfelder, country=Martinique, city=Justinland, email=marylou.gleason@yahoo.com, phone=1-323-222-3544, id=383-59-5118)
+2024-09-13 20:02:07.243 INFO [api.stepDefinitions.ClientSteps:155] - [
     {
-        "name": "Marielle",
-        "lastName": "Vandervort",
-        "country": "Bangladesh",
-        "city": "North Hollisville",
-        "email": "mellisa.pfeffer@hotmail.com",
-        "phone": "(603) 330-5708",
+        "name": "Mirta",
+        "lastName": "Brown",
+        "country": "Dominican Republic",
+        "city": "Lake Coy",
+        "email": "hugo.bradtke@hotmail.com",
+        "phone": "611-294-1131 x1033",
         "id": "1"
     },
     {
-        "name": "Denyse",
-        "lastName": "Mertz",
-        "country": "Gabon",
-        "city": "Lawrencefort",
-        "email": "earle.crona@yahoo.com",
-        "phone": "129-970-6840",
+        "name": "Augustus",
+        "lastName": "Cummerata",
+        "country": "Turkmenistan",
+        "city": "North Jasper",
+        "email": "brendon.conn@gmail.com",
+        "phone": "(967) 081-8483 x18408",
         "id": "2"
     },
     {
-        "name": "Marceline",
-        "lastName": "Orn",
-        "country": "Niger",
-        "city": "West Dolorisburgh",
-        "email": "vikki.pfannerstill@yahoo.com",
-        "phone": "(716) 752-0512",
+        "name": "Broderick",
+        "lastName": "Barton",
+        "country": "Israel",
+        "city": "West Myrtiemouth",
+        "email": "mellie.littel@hotmail.com",
+        "phone": "(350) 580-6191",
         "id": "3"
     },
     {
-        "name": "Kyoko",
-        "lastName": "Hintz",
-        "country": "French Guiana",
-        "city": "Rempelbury",
-        "email": "teofila.tremblay@yahoo.com",
-        "phone": "(854) 935-5387 x09374",
+        "name": "Demarcus",
+        "lastName": "Emard",
+        "country": "Montserrat",
+        "city": "Lake Karly",
+        "email": "gordon.cassin@yahoo.com",
+        "phone": "501.890.4950 x0487",
         "id": "4"
     },
     {
-        "name": "Jayson",
-        "lastName": "Rolfson",
-        "country": "Gabon",
-        "city": "Konopelskiview",
-        "email": "kristan.hauck@gmail.com",
-        "phone": "388.257.8999",
+        "name": "Rob",
+        "lastName": "Osinski",
+        "country": "Syrian Arab Republic",
+        "city": "Migueltown",
+        "email": "matt.schumm@hotmail.com",
+        "phone": "085-588-6815 x92651",
         "id": "5"
     },
     {
-        "name": "Nena",
-        "lastName": "Gulgowski",
-        "country": "Somalia",
-        "city": "South Hassanside",
-        "email": "mechelle.barton@hotmail.com",
-        "phone": "(677) 803-0810 x935",
+        "name": "Arthur",
+        "lastName": "Sauer",
+        "country": "Switzerland",
+        "city": "Haichester",
+        "email": "theresa.deckow@yahoo.com",
+        "phone": "1-086-420-9166",
         "id": "6"
     },
     {
-        "name": "Barbie",
-        "lastName": "Green",
-        "country": "Vietnam",
-        "city": "Nienowburgh",
-        "email": "arletha.stark@hotmail.com",
-        "phone": "(502) 581-6109 x163",
+        "name": "Duncan",
+        "lastName": "Stiedemann",
+        "country": "Anguilla",
+        "city": "Augustabury",
+        "email": "rufus.kshlerin@yahoo.com",
+        "phone": "(090) 543-6531 x388",
         "id": "7"
     },
     {
-        "name": "Jeneva",
-        "lastName": "Cole",
-        "country": "United States Minor Outlying Islands",
-        "city": "Adrianeberg",
-        "email": "abigail.cummings@hotmail.com",
-        "phone": "297.782.8902 x5213",
+        "name": "Thomas",
+        "lastName": "Wiza",
+        "country": "British Indian Ocean Territory (Chagos Archipelago)",
+        "city": "Alyceview",
+        "email": "tambra.auer@hotmail.com",
+        "phone": "1-572-973-3620 x0474",
         "id": "8"
     },
     {
-        "name": "Barry",
-        "lastName": "Gibson",
-        "country": "Uganda",
-        "city": "North Irving",
-        "email": "bradford.lueilwitz@hotmail.com",
-        "phone": "1-822-406-0060 x2571",
+        "name": "Tawnya",
+        "lastName": "Lebsack",
+        "country": "Greece",
+        "city": "West Lindy",
+        "email": "dominque.bartell@gmail.com",
+        "phone": "1-846-147-5288 x30122",
         "id": "9"
     },
     {
-        "name": "Rikki",
-        "lastName": "Morar",
-        "country": "Austria",
-        "city": "Huelsberg",
-        "email": "jerrold.langosh@yahoo.com",
-        "phone": "1-553-230-7513 x200",
+        "name": "Mora",
+        "lastName": "Greenfelder",
+        "country": "Martinique",
+        "city": "Justinland",
+        "email": "marylou.gleason@yahoo.com",
+        "phone": "1-323-222-3544",
         "id": "10"
     }
 ]
-2024-09-13 18:32:37.097 INFO [api.stepDefinitions.ClientSteps:133] - Updated client: Client(name=Laura, lastName=Smith, country=USA, city=New York, email=laura.smith@example.com, phone=555-987-6543, id=null)
-2024-09-13 18:32:37.450 INFO [api.stepDefinitions.ClientSteps:102] - Successfully Validated schema from Client object
-2024-09-13 18:32:37.771 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Marielle, lastName=Vandervort, country=Bangladesh, city=North Hollisville, email=mellisa.pfeffer@hotmail.com, phone=(603) 330-5708, id=1)
-2024-09-13 18:32:37.771 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Denyse, lastName=Mertz, country=Gabon, city=Lawrencefort, email=earle.crona@yahoo.com, phone=129-970-6840, id=2)
-2024-09-13 18:32:37.771 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Marceline, lastName=Orn, country=Niger, city=West Dolorisburgh, email=vikki.pfannerstill@yahoo.com, phone=(716) 752-0512, id=3)
-2024-09-13 18:32:37.772 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Kyoko, lastName=Hintz, country=French Guiana, city=Rempelbury, email=teofila.tremblay@yahoo.com, phone=(854) 935-5387 x09374, id=4)
-2024-09-13 18:32:37.772 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Jayson, lastName=Rolfson, country=Gabon, city=Konopelskiview, email=kristan.hauck@gmail.com, phone=388.257.8999, id=5)
-2024-09-13 18:32:37.772 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Nena, lastName=Gulgowski, country=Somalia, city=South Hassanside, email=mechelle.barton@hotmail.com, phone=(677) 803-0810 x935, id=6)
-2024-09-13 18:32:37.772 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Barbie, lastName=Green, country=Vietnam, city=Nienowburgh, email=arletha.stark@hotmail.com, phone=(502) 581-6109 x163, id=7)
-2024-09-13 18:32:37.772 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Jeneva, lastName=Cole, country=United States Minor Outlying Islands, city=Adrianeberg, email=abigail.cummings@hotmail.com, phone=297.782.8902 x5213, id=8)
-2024-09-13 18:32:37.772 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Barry, lastName=Gibson, country=Uganda, city=North Irving, email=bradford.lueilwitz@hotmail.com, phone=1-822-406-0060 x2571, id=9)
-2024-09-13 18:32:37.773 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Rikki, lastName=Morar, country=Austria, city=Huelsberg, email=jerrold.langosh@yahoo.com, phone=1-553-230-7513 x200, id=10)
-2024-09-13 18:32:37.773 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Laura, lastName=Smith, country=USA, city=New York, email=laura.smith@example.com, phone=555-987-6543, id=11)
-2024-09-13 18:32:38.021 INFO [api.stepDefinitions.ClientSteps:145] - Deleted client with ID: 1
-2024-09-13 18:32:38.232 INFO [api.stepDefinitions.ClientSteps:145] - Deleted client with ID: 2
-2024-09-13 18:32:38.480 INFO [api.stepDefinitions.ClientSteps:145] - Deleted client with ID: 3
-2024-09-13 18:32:38.759 INFO [api.stepDefinitions.ClientSteps:145] - Deleted client with ID: 4
-2024-09-13 18:32:39.002 INFO [api.stepDefinitions.ClientSteps:145] - Deleted client with ID: 5
-2024-09-13 18:32:39.252 INFO [api.stepDefinitions.ClientSteps:145] - Deleted client with ID: 6
-2024-09-13 18:32:39.537 INFO [api.stepDefinitions.ClientSteps:145] - Deleted client with ID: 7
-2024-09-13 18:32:39.747 INFO [api.stepDefinitions.ClientSteps:145] - Deleted client with ID: 8
-2024-09-13 18:32:39.957 INFO [api.stepDefinitions.ClientSteps:145] - Deleted client with ID: 9
-2024-09-13 18:32:40.168 INFO [api.stepDefinitions.ClientSteps:145] - Deleted client with ID: 10
-2024-09-13 18:32:40.380 INFO [api.stepDefinitions.ClientSteps:145] - Deleted client with ID: 11
-2024-09-13 18:32:40.381 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
-2024-09-13 18:32:40.381 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Change the phone number of the first Client named Laura
-2024-09-13 18:32:40.381 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
-2024-09-13 18:32:40.392 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
-2024-09-13 18:32:40.392 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update and delete a New Client
-2024-09-13 18:32:40.393 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
-2024-09-13 18:32:40.891 INFO [api.stepDefinitions.ClientSteps:39] - Created client: Client(name=Myesha, lastName=Auer, country=Guadeloupe, city=Aufderharville, email=delfina.collier@yahoo.com, phone=(616) 830-5819 x81222, id=071-35-9994)
-2024-09-13 18:32:41.307 INFO [api.stepDefinitions.ClientSteps:113] - [
+2024-09-13 20:02:07.764 INFO [api.stepDefinitions.ClientSteps:189] - Updated client: Client(name=Laura, lastName=Smith, country=USA, city=New York, email=laura.smith@example.com, phone=555-987-6543, id=null)
+2024-09-13 20:02:08.144 INFO [api.stepDefinitions.ClientSteps:138] - Successfully Validated schema from Client object
+2024-09-13 20:02:08.433 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Mirta, lastName=Brown, country=Dominican Republic, city=Lake Coy, email=hugo.bradtke@hotmail.com, phone=611-294-1131 x1033, id=1)
+2024-09-13 20:02:08.433 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Augustus, lastName=Cummerata, country=Turkmenistan, city=North Jasper, email=brendon.conn@gmail.com, phone=(967) 081-8483 x18408, id=2)
+2024-09-13 20:02:08.434 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Broderick, lastName=Barton, country=Israel, city=West Myrtiemouth, email=mellie.littel@hotmail.com, phone=(350) 580-6191, id=3)
+2024-09-13 20:02:08.434 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Demarcus, lastName=Emard, country=Montserrat, city=Lake Karly, email=gordon.cassin@yahoo.com, phone=501.890.4950 x0487, id=4)
+2024-09-13 20:02:08.434 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Rob, lastName=Osinski, country=Syrian Arab Republic, city=Migueltown, email=matt.schumm@hotmail.com, phone=085-588-6815 x92651, id=5)
+2024-09-13 20:02:08.434 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Arthur, lastName=Sauer, country=Switzerland, city=Haichester, email=theresa.deckow@yahoo.com, phone=1-086-420-9166, id=6)
+2024-09-13 20:02:08.434 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Duncan, lastName=Stiedemann, country=Anguilla, city=Augustabury, email=rufus.kshlerin@yahoo.com, phone=(090) 543-6531 x388, id=7)
+2024-09-13 20:02:08.434 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Thomas, lastName=Wiza, country=British Indian Ocean Territory (Chagos Archipelago), city=Alyceview, email=tambra.auer@hotmail.com, phone=1-572-973-3620 x0474, id=8)
+2024-09-13 20:02:08.435 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Tawnya, lastName=Lebsack, country=Greece, city=West Lindy, email=dominque.bartell@gmail.com, phone=1-846-147-5288 x30122, id=9)
+2024-09-13 20:02:08.435 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Mora, lastName=Greenfelder, country=Martinique, city=Justinland, email=marylou.gleason@yahoo.com, phone=1-323-222-3544, id=10)
+2024-09-13 20:02:08.435 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Laura, lastName=Smith, country=USA, city=New York, email=laura.smith@example.com, phone=555-987-6543, id=11)
+2024-09-13 20:02:08.683 INFO [api.stepDefinitions.ClientSteps:204] - Deleted client with ID: 1
+2024-09-13 20:02:08.968 INFO [api.stepDefinitions.ClientSteps:204] - Deleted client with ID: 2
+2024-09-13 20:02:09.216 INFO [api.stepDefinitions.ClientSteps:204] - Deleted client with ID: 3
+2024-09-13 20:02:09.439 INFO [api.stepDefinitions.ClientSteps:204] - Deleted client with ID: 4
+2024-09-13 20:02:09.657 INFO [api.stepDefinitions.ClientSteps:204] - Deleted client with ID: 5
+2024-09-13 20:02:09.916 INFO [api.stepDefinitions.ClientSteps:204] - Deleted client with ID: 6
+2024-09-13 20:02:10.128 INFO [api.stepDefinitions.ClientSteps:204] - Deleted client with ID: 7
+2024-09-13 20:02:10.339 INFO [api.stepDefinitions.ClientSteps:204] - Deleted client with ID: 8
+2024-09-13 20:02:10.543 INFO [api.stepDefinitions.ClientSteps:204] - Deleted client with ID: 9
+2024-09-13 20:02:10.786 INFO [api.stepDefinitions.ClientSteps:204] - Deleted client with ID: 10
+2024-09-13 20:02:11.056 INFO [api.stepDefinitions.ClientSteps:204] - Deleted client with ID: 11
+2024-09-13 20:02:11.057 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-09-13 20:02:11.057 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Change the phone number of the first Client named Laura
+2024-09-13 20:02:11.058 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-13 20:02:11.070 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-09-13 20:02:11.070 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update and delete a New Client
+2024-09-13 20:02:11.070 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-09-13 20:02:11.572 INFO [api.stepDefinitions.ClientSteps:47] - Created client: Client(name=Debi, lastName=Cronin, country=Zambia, city=New Hope, email=johnson.luettgen@hotmail.com, phone=(296) 662-8214 x058, id=313-14-1378)
+2024-09-13 20:02:11.975 INFO [api.stepDefinitions.ClientSteps:155] - [
     {
-        "name": "Myesha",
-        "lastName": "Auer",
-        "country": "Guadeloupe",
-        "city": "Aufderharville",
-        "email": "delfina.collier@yahoo.com",
-        "phone": "(616) 830-5819 x81222",
+        "name": "Debi",
+        "lastName": "Cronin",
+        "country": "Zambia",
+        "city": "New Hope",
+        "email": "johnson.luettgen@hotmail.com",
+        "phone": "(296) 662-8214 x058",
         "id": "1"
     }
 ]
-2024-09-13 18:32:41.519 INFO [api.stepDefinitions.ClientSteps:133] - Updated client: Client(name=Manuel, lastName=Muñoz, country=Colombia, city=Bogota, email=mf.munoz@globant.com, phone=999-543-1298, id=null)
-2024-09-13 18:32:41.527 INFO [api.stepDefinitions.ClientSteps:102] - Successfully Validated schema from Client object
-2024-09-13 18:32:41.769 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Manuel, lastName=Muñoz, country=Colombia, city=Bogota, email=mf.munoz@globant.com, phone=999-543-1298, id=1)
-2024-09-13 18:32:42.014 INFO [api.stepDefinitions.ClientSteps:145] - Deleted client with ID: 1
-2024-09-13 18:32:42.015 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
-2024-09-13 18:32:42.015 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Update and delete a New Client
-2024-09-13 18:32:42.015 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-13 20:02:12.194 INFO [api.stepDefinitions.ClientSteps:189] - Updated client: Client(name=Manuel, lastName=Muñoz, country=Colombia, city=Bogota, email=mf.munoz@globant.com, phone=999-543-1298, id=null)
+2024-09-13 20:02:12.201 INFO [api.stepDefinitions.ClientSteps:138] - Successfully Validated schema from Client object
+2024-09-13 20:02:12.411 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Manuel, lastName=Muñoz, country=Colombia, city=Bogota, email=mf.munoz@globant.com, phone=999-543-1298, id=1)
+2024-09-13 20:02:12.657 INFO [api.stepDefinitions.ClientSteps:204] - Deleted client with ID: 1
+2024-09-13 20:02:12.658 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-09-13 20:02:12.658 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Update and delete a New Client
+2024-09-13 20:02:12.658 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-13 20:02:12.665 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-09-13 20:02:12.666 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Get the list of active resources
+2024-09-13 20:02:12.666 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-09-13 20:02:13.105 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Incredible Copper Watch, trademark=Wisoky-Homenick, stock=18098, price=183.85, description=Enim quidem beatae sunt cupiditate doloribus., tags=[ducimus, eum, facilis], active=true, id=449-22-2707)
+2024-09-13 20:02:13.371 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Synergistic Linen Knife, trademark=Hahn, Barton and Runolfsdottir, stock=66319, price=519.34, description=Et blanditiis quasi quos repellendus iure., tags=[dolor, earum, ut], active=true, id=312-06-4984)
+2024-09-13 20:02:13.621 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Ergonomic Plastic Watch, trademark=Muller Inc, stock=22198, price=846.16, description=Omnis et similique consequuntur et molestias aut rerum., tags=[et, ut, nostrum], active=true, id=509-24-5036)
+2024-09-13 20:02:13.876 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Awesome Granite Bench, trademark=Berge and Sons, stock=42660, price=306.6, description=Natus quo eum eos., tags=[cumque, doloremque, amet], active=true, id=794-68-4998)
+2024-09-13 20:02:14.138 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Awesome Bronze Bag, trademark=Schiller, Mosciski and Langosh, stock=27326, price=551.93, description=Sit qui minus aliquam voluptas est., tags=[nostrum, eos, non], active=true, id=616-61-9544)
+2024-09-13 20:02:14.398 INFO [api.stepDefinitions.ResourceSteps:63] - Active Resources: [Resource(name=Incredible Copper Watch, trademark=Wisoky-Homenick, stock=18098, price=183.85, description=Enim quidem beatae sunt cupiditate doloribus., tags=[ducimus, eum, facilis], active=true, id=1), Resource(name=Synergistic Linen Knife, trademark=Hahn, Barton and Runolfsdottir, stock=66319, price=519.34, description=Et blanditiis quasi quos repellendus iure., tags=[dolor, earum, ut], active=true, id=2), Resource(name=Ergonomic Plastic Watch, trademark=Muller Inc, stock=22198, price=846.16, description=Omnis et similique consequuntur et molestias aut rerum., tags=[et, ut, nostrum], active=true, id=3), Resource(name=Awesome Granite Bench, trademark=Berge and Sons, stock=42660, price=306.6, description=Natus quo eum eos., tags=[cumque, doloremque, amet], active=true, id=4), Resource(name=Awesome Bronze Bag, trademark=Schiller, Mosciski and Langosh, stock=27326, price=551.93, description=Sit qui minus aliquam voluptas est., tags=[nostrum, eos, non], active=true, id=5)]
+2024-09-13 20:02:14.938 INFO [api.stepDefinitions.ResourceSteps:137] - Updated resource to inactive: Resource(name=Incredible Copper Watch, trademark=Wisoky-Homenick, stock=18098, price=183.85, description=Enim quidem beatae sunt cupiditate doloribus., tags=[ducimus, eum, facilis], active=false, id=1)
+2024-09-13 20:02:14.948 INFO [api.stepDefinitions.ResourceSteps:140] - Successfully Validated schema from Resource object
+2024-09-13 20:02:15.192 INFO [api.stepDefinitions.ResourceSteps:137] - Updated resource to inactive: Resource(name=Synergistic Linen Knife, trademark=Hahn, Barton and Runolfsdottir, stock=66319, price=519.34, description=Et blanditiis quasi quos repellendus iure., tags=[dolor, earum, ut], active=false, id=2)
+2024-09-13 20:02:15.196 INFO [api.stepDefinitions.ResourceSteps:140] - Successfully Validated schema from Resource object
+2024-09-13 20:02:15.404 INFO [api.stepDefinitions.ResourceSteps:137] - Updated resource to inactive: Resource(name=Ergonomic Plastic Watch, trademark=Muller Inc, stock=22198, price=846.16, description=Omnis et similique consequuntur et molestias aut rerum., tags=[et, ut, nostrum], active=false, id=3)
+2024-09-13 20:02:15.410 INFO [api.stepDefinitions.ResourceSteps:140] - Successfully Validated schema from Resource object
+2024-09-13 20:02:15.618 INFO [api.stepDefinitions.ResourceSteps:137] - Updated resource to inactive: Resource(name=Awesome Granite Bench, trademark=Berge and Sons, stock=42660, price=306.6, description=Natus quo eum eos., tags=[cumque, doloremque, amet], active=false, id=4)
+2024-09-13 20:02:15.626 INFO [api.stepDefinitions.ResourceSteps:140] - Successfully Validated schema from Resource object
+2024-09-13 20:02:15.875 INFO [api.stepDefinitions.ResourceSteps:137] - Updated resource to inactive: Resource(name=Awesome Bronze Bag, trademark=Schiller, Mosciski and Langosh, stock=27326, price=551.93, description=Sit qui minus aliquam voluptas est., tags=[nostrum, eos, non], active=false, id=5)
+2024-09-13 20:02:15.884 INFO [api.stepDefinitions.ResourceSteps:140] - Successfully Validated schema from Resource object
+2024-09-13 20:02:16.096 INFO [api.stepDefinitions.ResourceSteps:75] - Resource(name=Incredible Copper Watch, trademark=Wisoky-Homenick, stock=18098, price=183.85, description=Enim quidem beatae sunt cupiditate doloribus., tags=[ducimus, eum, facilis], active=false, id=1)
+2024-09-13 20:02:16.096 INFO [api.stepDefinitions.ResourceSteps:75] - Resource(name=Synergistic Linen Knife, trademark=Hahn, Barton and Runolfsdottir, stock=66319, price=519.34, description=Et blanditiis quasi quos repellendus iure., tags=[dolor, earum, ut], active=false, id=2)
+2024-09-13 20:02:16.096 INFO [api.stepDefinitions.ResourceSteps:75] - Resource(name=Ergonomic Plastic Watch, trademark=Muller Inc, stock=22198, price=846.16, description=Omnis et similique consequuntur et molestias aut rerum., tags=[et, ut, nostrum], active=false, id=3)
+2024-09-13 20:02:16.097 INFO [api.stepDefinitions.ResourceSteps:75] - Resource(name=Awesome Granite Bench, trademark=Berge and Sons, stock=42660, price=306.6, description=Natus quo eum eos., tags=[cumque, doloremque, amet], active=false, id=4)
+2024-09-13 20:02:16.097 INFO [api.stepDefinitions.ResourceSteps:75] - Resource(name=Awesome Bronze Bag, trademark=Schiller, Mosciski and Langosh, stock=27326, price=551.93, description=Sit qui minus aliquam voluptas est., tags=[nostrum, eos, non], active=false, id=5)
+2024-09-13 20:02:16.375 INFO [api.stepDefinitions.ResourceSteps:118] - Deleted resource with ID: 1
+2024-09-13 20:02:16.614 INFO [api.stepDefinitions.ResourceSteps:118] - Deleted resource with ID: 2
+2024-09-13 20:02:16.864 INFO [api.stepDefinitions.ResourceSteps:118] - Deleted resource with ID: 3
+2024-09-13 20:02:17.114 INFO [api.stepDefinitions.ResourceSteps:118] - Deleted resource with ID: 4
+2024-09-13 20:02:17.399 INFO [api.stepDefinitions.ResourceSteps:118] - Deleted resource with ID: 5
+2024-09-13 20:02:17.400 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-09-13 20:02:17.401 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Get the list of active resources
+2024-09-13 20:02:17.401 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-13 20:02:17.407 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-09-13 20:02:17.407 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update the last created resource
+2024-09-13 20:02:17.407 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-09-13 20:02:17.893 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Aerodynamic Steel Computer, trademark=Schiller and Sons, stock=67763, price=303.65, description=Officia voluptas autem doloribus velit maxime., tags=[blanditiis, porro, nemo], active=true, id=215-16-1769)
+2024-09-13 20:02:18.143 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Small Steel Bag, trademark=Flatley Inc, stock=66222, price=213.59, description=Voluptas doloribus minus blanditiis aut., tags=[unde, dignissimos, consequuntur], active=true, id=110-89-1884)
+2024-09-13 20:02:18.391 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Rustic Granite Gloves, trademark=Herzog-Sawayn, stock=33767, price=430.0, description=Mollitia consectetur cumque ut dolores., tags=[doloremque, qui, dolores], active=true, id=317-14-7826)
+2024-09-13 20:02:18.674 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Durable Copper Plate, trademark=Hintz LLC, stock=65525, price=735.79, description=In et ut illo exercitationem officia placeat rerum., tags=[soluta, consequatur, aut], active=true, id=201-45-3472)
+2024-09-13 20:02:18.888 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Incredible Paper Gloves, trademark=Ziemann-Lubowitz, stock=22126, price=95.93, description=A est nulla rerum neque labore repudiandae soluta., tags=[esse, ipsum, in], active=true, id=202-06-5226)
+2024-09-13 20:02:19.094 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Aerodynamic Marble Keyboard, trademark=Botsford Inc, stock=85248, price=776.06, description=Numquam itaque enim., tags=[molestias, libero, et], active=true, id=311-96-6457)
+2024-09-13 20:02:19.304 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Small Copper Plate, trademark=Beahan-Kuphal, stock=12698, price=348.03, description=Sunt id voluptas., tags=[quae, repudiandae, quod], active=true, id=499-01-1976)
+2024-09-13 20:02:19.550 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Lightweight Bronze Bag, trademark=Zemlak, Jerde and Windler, stock=56318, price=739.53, description=Nisi ipsam sit et itaque., tags=[quidem, omnis, rem], active=true, id=545-39-5216)
+2024-09-13 20:02:19.802 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Intelligent Concrete Computer, trademark=Hauck Inc, stock=61192, price=255.4, description=Velit quo magni facere magni sapiente., tags=[blanditiis, et, iste], active=true, id=640-32-3226)
+2024-09-13 20:02:20.069 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Incredible Steel Table, trademark=Koss, Torphy and Bashirian, stock=62931, price=575.78, description=Perspiciatis eos voluptates et suscipit., tags=[aut, dolorum, sint], active=true, id=309-64-7765)
+2024-09-13 20:02:20.315 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Rustic Iron Keyboard, trademark=Reilly, Franecki and Koch, stock=95672, price=684.71, description=Dicta et quam sint occaecati., tags=[rerum, et, sit], active=true, id=319-51-0554)
+2024-09-13 20:02:20.558 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Awesome Steel Plate, trademark=Luettgen-Flatley, stock=20635, price=454.79, description=Consequuntur ut alias consectetur non., tags=[ut, neque, voluptatem], active=true, id=399-15-8141)
+2024-09-13 20:02:20.762 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Synergistic Rubber Table, trademark=Anderson and Sons, stock=65529, price=840.04, description=Non omnis molestiae rerum omnis., tags=[omnis, error, sed], active=true, id=102-74-5376)
+2024-09-13 20:02:20.981 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Lightweight Copper Car, trademark=Dare and Sons, stock=81304, price=597.37, description=Totam rerum repudiandae consequuntur qui., tags=[incidunt, dolore, exercitationem], active=true, id=651-39-9777)
+2024-09-13 20:02:21.286 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Small Copper Bench, trademark=Keebler-Beatty, stock=17426, price=360.89, description=Quae voluptas quis autem dicta., tags=[voluptatem, qui, deserunt], active=true, id=504-30-0872)
+2024-09-13 20:02:21.582 INFO [api.stepDefinitions.ResourceSteps:154] - Latest resource found: Resource(name=Small Copper Bench, trademark=Keebler-Beatty, stock=17426, price=360.89, description=Quae voluptas quis autem dicta., tags=[voluptatem, qui, deserunt], active=true, id=15)
+2024-09-13 20:02:21.814 INFO [api.stepDefinitions.ResourceSteps:173] - Updated resource: Resource(name=Computer, trademark=Globant, stock=55, price=200.05, description=New Computer, tags=computer, PC, tech, coding, active=false, id=15)
+2024-09-13 20:02:21.821 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-09-13 20:02:21.821 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Update the last created resource
+2024-09-13 20:02:21.821 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-13 20:02:36.003 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-09-13 20:02:36.006 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update the last created resource
+2024-09-13 20:02:36.006 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-09-13 20:02:38.060 INFO [api.stepDefinitions.ResourceSteps:154] - Latest resource found: Resource(name=Small Copper Bench, trademark=Keebler-Beatty, stock=17426, price=360.89, description=Quae voluptas quis autem dicta., tags=[voluptatem, qui, deserunt], active=false, id=15)
+2024-09-13 20:02:38.449 INFO [api.stepDefinitions.ResourceSteps:173] - Updated resource: Resource(name=Computer, trademark=Globant, stock=55, price=200.05, description=New Computer, tags=computer, PC, tech, coding, active=false, id=15)
+2024-09-13 20:02:38.454 INFO [api.stepDefinitions.ResourceSteps:83] - Resource mapped: Resource(name=Computer, trademark=Globant, stock=55, price=200.05, description=New Computer, tags=computer, PC, tech, coding, active=false, id=null)
+2024-09-13 20:02:38.853 INFO [api.stepDefinitions.ResourceSteps:103] - Successfully Validated schema from Resource object
+2024-09-13 20:02:39.167 INFO [api.stepDefinitions.ResourceSteps:75] - Resource(name=Aerodynamic Steel Computer, trademark=Schiller and Sons, stock=67763, price=303.65, description=Officia voluptas autem doloribus velit maxime., tags=[blanditiis, porro, nemo], active=false, id=1)
+2024-09-13 20:02:39.168 INFO [api.stepDefinitions.ResourceSteps:75] - Resource(name=Small Steel Bag, trademark=Flatley Inc, stock=66222, price=213.59, description=Voluptas doloribus minus blanditiis aut., tags=[unde, dignissimos, consequuntur], active=false, id=2)
+2024-09-13 20:02:39.168 INFO [api.stepDefinitions.ResourceSteps:75] - Resource(name=Rustic Granite Gloves, trademark=Herzog-Sawayn, stock=33767, price=430.0, description=Mollitia consectetur cumque ut dolores., tags=[doloremque, qui, dolores], active=false, id=3)
+2024-09-13 20:02:39.168 INFO [api.stepDefinitions.ResourceSteps:75] - Resource(name=Durable Copper Plate, trademark=Hintz LLC, stock=65525, price=735.79, description=In et ut illo exercitationem officia placeat rerum., tags=[soluta, consequatur, aut], active=false, id=4)
+2024-09-13 20:02:39.168 INFO [api.stepDefinitions.ResourceSteps:75] - Resource(name=Incredible Paper Gloves, trademark=Ziemann-Lubowitz, stock=22126, price=95.93, description=A est nulla rerum neque labore repudiandae soluta., tags=[esse, ipsum, in], active=false, id=5)
+2024-09-13 20:02:39.168 INFO [api.stepDefinitions.ResourceSteps:75] - Resource(name=Aerodynamic Marble Keyboard, trademark=Botsford Inc, stock=85248, price=776.06, description=Numquam itaque enim., tags=[molestias, libero, et], active=false, id=6)
+2024-09-13 20:02:39.169 INFO [api.stepDefinitions.ResourceSteps:75] - Resource(name=Small Copper Plate, trademark=Beahan-Kuphal, stock=12698, price=348.03, description=Sunt id voluptas., tags=[quae, repudiandae, quod], active=false, id=7)
+2024-09-13 20:02:39.169 INFO [api.stepDefinitions.ResourceSteps:75] - Resource(name=Lightweight Bronze Bag, trademark=Zemlak, Jerde and Windler, stock=56318, price=739.53, description=Nisi ipsam sit et itaque., tags=[quidem, omnis, rem], active=false, id=8)
+2024-09-13 20:02:39.169 INFO [api.stepDefinitions.ResourceSteps:75] - Resource(name=Intelligent Concrete Computer, trademark=Hauck Inc, stock=61192, price=255.4, description=Velit quo magni facere magni sapiente., tags=[blanditiis, et, iste], active=false, id=9)
+2024-09-13 20:02:39.169 INFO [api.stepDefinitions.ResourceSteps:75] - Resource(name=Incredible Steel Table, trademark=Koss, Torphy and Bashirian, stock=62931, price=575.78, description=Perspiciatis eos voluptates et suscipit., tags=[aut, dolorum, sint], active=false, id=10)
+2024-09-13 20:02:39.169 INFO [api.stepDefinitions.ResourceSteps:75] - Resource(name=Rustic Iron Keyboard, trademark=Reilly, Franecki and Koch, stock=95672, price=684.71, description=Dicta et quam sint occaecati., tags=[rerum, et, sit], active=false, id=11)
+2024-09-13 20:02:39.169 INFO [api.stepDefinitions.ResourceSteps:75] - Resource(name=Awesome Steel Plate, trademark=Luettgen-Flatley, stock=20635, price=454.79, description=Consequuntur ut alias consectetur non., tags=[ut, neque, voluptatem], active=false, id=12)
+2024-09-13 20:02:39.170 INFO [api.stepDefinitions.ResourceSteps:75] - Resource(name=Synergistic Rubber Table, trademark=Anderson and Sons, stock=65529, price=840.04, description=Non omnis molestiae rerum omnis., tags=[omnis, error, sed], active=false, id=13)
+2024-09-13 20:02:39.170 INFO [api.stepDefinitions.ResourceSteps:75] - Resource(name=Lightweight Copper Car, trademark=Dare and Sons, stock=81304, price=597.37, description=Totam rerum repudiandae consequuntur qui., tags=[incidunt, dolore, exercitationem], active=false, id=14)
+2024-09-13 20:02:39.170 INFO [api.stepDefinitions.ResourceSteps:75] - Resource(name=Computer, trademark=Globant, stock=55, price=200.05, description=New Computer, tags=computer, PC, tech, coding, active=false, id=15)
+2024-09-13 20:02:39.415 INFO [api.stepDefinitions.ResourceSteps:118] - Deleted resource with ID: 1
+2024-09-13 20:02:39.630 INFO [api.stepDefinitions.ResourceSteps:118] - Deleted resource with ID: 2
+2024-09-13 20:02:39.918 INFO [api.stepDefinitions.ResourceSteps:118] - Deleted resource with ID: 3
+2024-09-13 20:02:40.172 INFO [api.stepDefinitions.ResourceSteps:118] - Deleted resource with ID: 4
+2024-09-13 20:02:40.414 INFO [api.stepDefinitions.ResourceSteps:118] - Deleted resource with ID: 5
+2024-09-13 20:02:40.697 INFO [api.stepDefinitions.ResourceSteps:118] - Deleted resource with ID: 6
+2024-09-13 20:02:40.940 INFO [api.stepDefinitions.ResourceSteps:118] - Deleted resource with ID: 7
+2024-09-13 20:02:41.187 INFO [api.stepDefinitions.ResourceSteps:118] - Deleted resource with ID: 8
+2024-09-13 20:02:41.469 INFO [api.stepDefinitions.ResourceSteps:118] - Deleted resource with ID: 9
+2024-09-13 20:02:41.749 INFO [api.stepDefinitions.ResourceSteps:118] - Deleted resource with ID: 10
+2024-09-13 20:02:41.996 INFO [api.stepDefinitions.ResourceSteps:118] - Deleted resource with ID: 11
+2024-09-13 20:02:42.293 INFO [api.stepDefinitions.ResourceSteps:118] - Deleted resource with ID: 12
+2024-09-13 20:02:42.509 INFO [api.stepDefinitions.ResourceSteps:118] - Deleted resource with ID: 13
+2024-09-13 20:02:42.715 INFO [api.stepDefinitions.ResourceSteps:118] - Deleted resource with ID: 14
+2024-09-13 20:02:42.964 INFO [api.stepDefinitions.ResourceSteps:118] - Deleted resource with ID: 15
+2024-09-13 20:02:42.965 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-09-13 20:02:42.965 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Update the last created resource
+2024-09-13 20:02:42.966 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************

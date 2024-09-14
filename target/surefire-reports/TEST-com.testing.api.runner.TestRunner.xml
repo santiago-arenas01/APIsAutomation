@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.testing.api.runner.TestRunner" time="12.566" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.testing.api.runner.TestRunner" time="22.046" tests="4" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\santiago.arenas\.jdks\corretto-17.0.12\bin"/>
-    <property name="sun.java.command" value="C:\Users\santiago.arenas\AppData\Local\Temp\surefire10569576017297949226\surefirebooter-20240913183227883_3.jar C:\Users\santiago.arenas\AppData\Local\Temp\surefire10569576017297949226 2024-09-13T18-32-27_368-jvmRun1 surefire-20240913183227883_1tmp surefire_0-20240913183227883_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\santiago.arenas\AppData\Local\Temp\surefire13873721789860707486\surefirebooter-20240913200158290_3.jar C:\Users\santiago.arenas\AppData\Local\Temp\surefire13873721789860707486 2024-09-13T20-01-57_766-jvmRun1 surefire-20240913200158290_1tmp surefire_0-20240913200158290_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\santiago.arenas\Downloads\assuredApi\assuredApi\target\test-classes;C:\Users\santiago.arenas\Downloads\assuredApi\assuredApi\target\classes;C:\Users\santiago.arenas\.m2\repository\io\cucumber\cucumber-java\7.13.0\cucumber-java-7.13.0.jar;C:\Users\santiago.arenas\.m2\repository\io\cucumber\cucumber-core\7.13.0\cucumber-core-7.13.0.jar;C:\Users\santiago.arenas\.m2\repository\io\cucumber\cucumber-gherkin\7.13.0\cucumber-gherkin-7.13.0.jar;C:\Users\santiago.arenas\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.13.0\cucumber-gherkin-messages-7.13.0.jar;C:\Users\santiago.arenas\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\santiago.arenas\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\santiago.arenas\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\santiago.arenas\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\santiago.arenas\.m2\repository\io\cucumber\datatable\7.13.0\datatable-7.13.0.jar;C:\Users\santiago.arenas\.m2\repository\io\cucumber\cucumber-plugin\7.13.0\cucumber-plugin-7.13.0.jar;C:\Users\santiago.arenas\.m2\repository\io\cucumber\docstring\7.13.0\docstring-7.13.0.jar;C:\Users\santiago.arenas\.m2\repository\io\cucumber\html-formatter\20.3.1\html-formatter-20.3.1.jar;C:\Users\santiago.arenas\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\santiago.arenas\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\santiago.arenas\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\santiago.arenas\.m2\repository\io\cucumber\cucumber-junit\7.13.0\cucumber-junit-7.13.0.jar;C:\Users\santiago.arenas\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\santiago.arenas\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\santiago.arenas\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;C:\Users\santiago.arenas\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\santiago.arenas\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\santiago.arenas\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\santiago.arenas\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\santiago.arenas\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\santiago.arenas\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\santiago.arenas\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar;C:\Users\santiago.arenas\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\santiago.arenas\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\santiago.arenas\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\santiago.arenas\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\santiago.arenas\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\santiago.arenas\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\santiago.arenas\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\santiago.arenas\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\santiago.arenas\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\santiago.arenas\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar;C:\Users\santiago.arenas\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\santiago.arenas\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar;C:\Users\santiago.arenas\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar;C:\Users\santiago.arenas\.m2\repository\io\rest-assured\json-schema-validator\5.3.1\json-schema-validator-5.3.1.jar;C:\Users\santiago.arenas\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\santiago.arenas\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\santiago.arenas\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\Users\santiago.arenas\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\Users\santiago.arenas\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\Users\santiago.arenas\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\santiago.arenas\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\santiago.arenas\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\santiago.arenas\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\santiago.arenas\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\santiago.arenas\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\santiago.arenas\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\santiago.arenas\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\santiago.arenas\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\santiago.arenas\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\santiago.arenas\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\santiago.arenas\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\santiago.arenas\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\santiago.arenas\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\santiago.arenas\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\santiago.arenas\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\santiago.arenas\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\santiago.arenas\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\santiago.arenas\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\santiago.arenas\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\santiago.arenas\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\santiago.arenas\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\santiago.arenas\.m2\repository\org\jetbrains\annotations\24.1.0\annotations-24.1.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\santiago.arenas\AppData\Local\Temp\surefire10569576017297949226\surefirebooter-20240913183227883_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\santiago.arenas\AppData\Local\Temp\surefire13873721789860707486\surefirebooter-20240913200158290_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+7-LTS"/>
@@ -58,164 +58,229 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="Change the phone number of the first Client named Laura" classname="Client testing CRUD" time="10.718">
-    <system-out><![CDATA[13-09-2024 18:32:30 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
-13-09-2024 18:32:30 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Change the phone number of the first Client named Laura
-13-09-2024 18:32:30 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
-13-09-2024 18:32:33 INFO [api.stepDefinitions.ClientSteps:39] - Created client: Client(name=Marielle, lastName=Vandervort, country=Bangladesh, city=North Hollisville, email=mellisa.pfeffer@hotmail.com, phone=(603) 330-5708, id=207-59-9808)
-13-09-2024 18:32:34 INFO [api.stepDefinitions.ClientSteps:39] - Created client: Client(name=Denyse, lastName=Mertz, country=Gabon, city=Lawrencefort, email=earle.crona@yahoo.com, phone=129-970-6840, id=632-26-5997)
-13-09-2024 18:32:34 INFO [api.stepDefinitions.ClientSteps:39] - Created client: Client(name=Marceline, lastName=Orn, country=Niger, city=West Dolorisburgh, email=vikki.pfannerstill@yahoo.com, phone=(716) 752-0512, id=810-41-4026)
-13-09-2024 18:32:34 INFO [api.stepDefinitions.ClientSteps:39] - Created client: Client(name=Kyoko, lastName=Hintz, country=French Guiana, city=Rempelbury, email=teofila.tremblay@yahoo.com, phone=(854) 935-5387 x09374, id=227-69-2571)
-13-09-2024 18:32:34 INFO [api.stepDefinitions.ClientSteps:39] - Created client: Client(name=Jayson, lastName=Rolfson, country=Gabon, city=Konopelskiview, email=kristan.hauck@gmail.com, phone=388.257.8999, id=014-49-3830)
-13-09-2024 18:32:35 INFO [api.stepDefinitions.ClientSteps:39] - Created client: Client(name=Nena, lastName=Gulgowski, country=Somalia, city=South Hassanside, email=mechelle.barton@hotmail.com, phone=(677) 803-0810 x935, id=449-71-4272)
-13-09-2024 18:32:35 INFO [api.stepDefinitions.ClientSteps:39] - Created client: Client(name=Barbie, lastName=Green, country=Vietnam, city=Nienowburgh, email=arletha.stark@hotmail.com, phone=(502) 581-6109 x163, id=661-14-3194)
-13-09-2024 18:32:35 INFO [api.stepDefinitions.ClientSteps:39] - Created client: Client(name=Jeneva, lastName=Cole, country=United States Minor Outlying Islands, city=Adrianeberg, email=abigail.cummings@hotmail.com, phone=297.782.8902 x5213, id=166-61-6421)
-13-09-2024 18:32:35 INFO [api.stepDefinitions.ClientSteps:39] - Created client: Client(name=Barry, lastName=Gibson, country=Uganda, city=North Irving, email=bradford.lueilwitz@hotmail.com, phone=1-822-406-0060 x2571, id=438-78-2120)
-13-09-2024 18:32:36 INFO [api.stepDefinitions.ClientSteps:39] - Created client: Client(name=Rikki, lastName=Morar, country=Austria, city=Huelsberg, email=jerrold.langosh@yahoo.com, phone=1-553-230-7513 x200, id=248-57-8877)
-13-09-2024 18:32:36 INFO [api.stepDefinitions.ClientSteps:113] - [
+  <testcase name="Change the phone number of the first Client named Laura" classname="Client testing CRUD" time="11.058">
+    <system-out><![CDATA[13-09-2024 20:02:00 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+13-09-2024 20:02:00 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Change the phone number of the first Client named Laura
+13-09-2024 20:02:00 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+13-09-2024 20:02:04 INFO [api.stepDefinitions.ClientSteps:47] - Created client: Client(name=Mirta, lastName=Brown, country=Dominican Republic, city=Lake Coy, email=hugo.bradtke@hotmail.com, phone=611-294-1131 x1033, id=554-75-9363)
+13-09-2024 20:02:04 INFO [api.stepDefinitions.ClientSteps:47] - Created client: Client(name=Augustus, lastName=Cummerata, country=Turkmenistan, city=North Jasper, email=brendon.conn@gmail.com, phone=(967) 081-8483 x18408, id=598-70-6724)
+13-09-2024 20:02:04 INFO [api.stepDefinitions.ClientSteps:47] - Created client: Client(name=Broderick, lastName=Barton, country=Israel, city=West Myrtiemouth, email=mellie.littel@hotmail.com, phone=(350) 580-6191, id=705-70-9266)
+13-09-2024 20:02:05 INFO [api.stepDefinitions.ClientSteps:47] - Created client: Client(name=Demarcus, lastName=Emard, country=Montserrat, city=Lake Karly, email=gordon.cassin@yahoo.com, phone=501.890.4950 x0487, id=005-41-8337)
+13-09-2024 20:02:05 INFO [api.stepDefinitions.ClientSteps:47] - Created client: Client(name=Rob, lastName=Osinski, country=Syrian Arab Republic, city=Migueltown, email=matt.schumm@hotmail.com, phone=085-588-6815 x92651, id=040-41-7447)
+13-09-2024 20:02:05 INFO [api.stepDefinitions.ClientSteps:47] - Created client: Client(name=Arthur, lastName=Sauer, country=Switzerland, city=Haichester, email=theresa.deckow@yahoo.com, phone=1-086-420-9166, id=835-27-4306)
+13-09-2024 20:02:05 INFO [api.stepDefinitions.ClientSteps:47] - Created client: Client(name=Duncan, lastName=Stiedemann, country=Anguilla, city=Augustabury, email=rufus.kshlerin@yahoo.com, phone=(090) 543-6531 x388, id=820-91-6325)
+13-09-2024 20:02:06 INFO [api.stepDefinitions.ClientSteps:47] - Created client: Client(name=Thomas, lastName=Wiza, country=British Indian Ocean Territory (Chagos Archipelago), city=Alyceview, email=tambra.auer@hotmail.com, phone=1-572-973-3620 x0474, id=265-27-0962)
+13-09-2024 20:02:06 INFO [api.stepDefinitions.ClientSteps:47] - Created client: Client(name=Tawnya, lastName=Lebsack, country=Greece, city=West Lindy, email=dominque.bartell@gmail.com, phone=1-846-147-5288 x30122, id=131-99-6235)
+13-09-2024 20:02:06 INFO [api.stepDefinitions.ClientSteps:47] - Created client: Client(name=Mora, lastName=Greenfelder, country=Martinique, city=Justinland, email=marylou.gleason@yahoo.com, phone=1-323-222-3544, id=383-59-5118)
+13-09-2024 20:02:07 INFO [api.stepDefinitions.ClientSteps:155] - [
     {
-        "name": "Marielle",
-        "lastName": "Vandervort",
-        "country": "Bangladesh",
-        "city": "North Hollisville",
-        "email": "mellisa.pfeffer@hotmail.com",
-        "phone": "(603) 330-5708",
+        "name": "Mirta",
+        "lastName": "Brown",
+        "country": "Dominican Republic",
+        "city": "Lake Coy",
+        "email": "hugo.bradtke@hotmail.com",
+        "phone": "611-294-1131 x1033",
         "id": "1"
     },
     {
-        "name": "Denyse",
-        "lastName": "Mertz",
-        "country": "Gabon",
-        "city": "Lawrencefort",
-        "email": "earle.crona@yahoo.com",
-        "phone": "129-970-6840",
+        "name": "Augustus",
+        "lastName": "Cummerata",
+        "country": "Turkmenistan",
+        "city": "North Jasper",
+        "email": "brendon.conn@gmail.com",
+        "phone": "(967) 081-8483 x18408",
         "id": "2"
     },
     {
-        "name": "Marceline",
-        "lastName": "Orn",
-        "country": "Niger",
-        "city": "West Dolorisburgh",
-        "email": "vikki.pfannerstill@yahoo.com",
-        "phone": "(716) 752-0512",
+        "name": "Broderick",
+        "lastName": "Barton",
+        "country": "Israel",
+        "city": "West Myrtiemouth",
+        "email": "mellie.littel@hotmail.com",
+        "phone": "(350) 580-6191",
         "id": "3"
     },
     {
-        "name": "Kyoko",
-        "lastName": "Hintz",
-        "country": "French Guiana",
-        "city": "Rempelbury",
-        "email": "teofila.tremblay@yahoo.com",
-        "phone": "(854) 935-5387 x09374",
+        "name": "Demarcus",
+        "lastName": "Emard",
+        "country": "Montserrat",
+        "city": "Lake Karly",
+        "email": "gordon.cassin@yahoo.com",
+        "phone": "501.890.4950 x0487",
         "id": "4"
     },
     {
-        "name": "Jayson",
-        "lastName": "Rolfson",
-        "country": "Gabon",
-        "city": "Konopelskiview",
-        "email": "kristan.hauck@gmail.com",
-        "phone": "388.257.8999",
+        "name": "Rob",
+        "lastName": "Osinski",
+        "country": "Syrian Arab Republic",
+        "city": "Migueltown",
+        "email": "matt.schumm@hotmail.com",
+        "phone": "085-588-6815 x92651",
         "id": "5"
     },
     {
-        "name": "Nena",
-        "lastName": "Gulgowski",
-        "country": "Somalia",
-        "city": "South Hassanside",
-        "email": "mechelle.barton@hotmail.com",
-        "phone": "(677) 803-0810 x935",
+        "name": "Arthur",
+        "lastName": "Sauer",
+        "country": "Switzerland",
+        "city": "Haichester",
+        "email": "theresa.deckow@yahoo.com",
+        "phone": "1-086-420-9166",
         "id": "6"
     },
     {
-        "name": "Barbie",
-        "lastName": "Green",
-        "country": "Vietnam",
-        "city": "Nienowburgh",
-        "email": "arletha.stark@hotmail.com",
-        "phone": "(502) 581-6109 x163",
+        "name": "Duncan",
+        "lastName": "Stiedemann",
+        "country": "Anguilla",
+        "city": "Augustabury",
+        "email": "rufus.kshlerin@yahoo.com",
+        "phone": "(090) 543-6531 x388",
         "id": "7"
     },
     {
-        "name": "Jeneva",
-        "lastName": "Cole",
-        "country": "United States Minor Outlying Islands",
-        "city": "Adrianeberg",
-        "email": "abigail.cummings@hotmail.com",
-        "phone": "297.782.8902 x5213",
+        "name": "Thomas",
+        "lastName": "Wiza",
+        "country": "British Indian Ocean Territory (Chagos Archipelago)",
+        "city": "Alyceview",
+        "email": "tambra.auer@hotmail.com",
+        "phone": "1-572-973-3620 x0474",
         "id": "8"
     },
     {
-        "name": "Barry",
-        "lastName": "Gibson",
-        "country": "Uganda",
-        "city": "North Irving",
-        "email": "bradford.lueilwitz@hotmail.com",
-        "phone": "1-822-406-0060 x2571",
+        "name": "Tawnya",
+        "lastName": "Lebsack",
+        "country": "Greece",
+        "city": "West Lindy",
+        "email": "dominque.bartell@gmail.com",
+        "phone": "1-846-147-5288 x30122",
         "id": "9"
     },
     {
-        "name": "Rikki",
-        "lastName": "Morar",
-        "country": "Austria",
-        "city": "Huelsberg",
-        "email": "jerrold.langosh@yahoo.com",
-        "phone": "1-553-230-7513 x200",
+        "name": "Mora",
+        "lastName": "Greenfelder",
+        "country": "Martinique",
+        "city": "Justinland",
+        "email": "marylou.gleason@yahoo.com",
+        "phone": "1-323-222-3544",
         "id": "10"
     }
 ]
-13-09-2024 18:32:37 INFO [api.stepDefinitions.ClientSteps:133] - Updated client: Client(name=Laura, lastName=Smith, country=USA, city=New York, email=laura.smith@example.com, phone=555-987-6543, id=null)
-13-09-2024 18:32:37 INFO [api.stepDefinitions.ClientSteps:102] - Successfully Validated schema from Client object
-13-09-2024 18:32:37 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Marielle, lastName=Vandervort, country=Bangladesh, city=North Hollisville, email=mellisa.pfeffer@hotmail.com, phone=(603) 330-5708, id=1)
-13-09-2024 18:32:37 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Denyse, lastName=Mertz, country=Gabon, city=Lawrencefort, email=earle.crona@yahoo.com, phone=129-970-6840, id=2)
-13-09-2024 18:32:37 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Marceline, lastName=Orn, country=Niger, city=West Dolorisburgh, email=vikki.pfannerstill@yahoo.com, phone=(716) 752-0512, id=3)
-13-09-2024 18:32:37 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Kyoko, lastName=Hintz, country=French Guiana, city=Rempelbury, email=teofila.tremblay@yahoo.com, phone=(854) 935-5387 x09374, id=4)
-13-09-2024 18:32:37 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Jayson, lastName=Rolfson, country=Gabon, city=Konopelskiview, email=kristan.hauck@gmail.com, phone=388.257.8999, id=5)
-13-09-2024 18:32:37 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Nena, lastName=Gulgowski, country=Somalia, city=South Hassanside, email=mechelle.barton@hotmail.com, phone=(677) 803-0810 x935, id=6)
-13-09-2024 18:32:37 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Barbie, lastName=Green, country=Vietnam, city=Nienowburgh, email=arletha.stark@hotmail.com, phone=(502) 581-6109 x163, id=7)
-13-09-2024 18:32:37 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Jeneva, lastName=Cole, country=United States Minor Outlying Islands, city=Adrianeberg, email=abigail.cummings@hotmail.com, phone=297.782.8902 x5213, id=8)
-13-09-2024 18:32:37 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Barry, lastName=Gibson, country=Uganda, city=North Irving, email=bradford.lueilwitz@hotmail.com, phone=1-822-406-0060 x2571, id=9)
-13-09-2024 18:32:37 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Rikki, lastName=Morar, country=Austria, city=Huelsberg, email=jerrold.langosh@yahoo.com, phone=1-553-230-7513 x200, id=10)
-13-09-2024 18:32:37 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Laura, lastName=Smith, country=USA, city=New York, email=laura.smith@example.com, phone=555-987-6543, id=11)
-13-09-2024 18:32:38 INFO [api.stepDefinitions.ClientSteps:145] - Deleted client with ID: 1
-13-09-2024 18:32:38 INFO [api.stepDefinitions.ClientSteps:145] - Deleted client with ID: 2
-13-09-2024 18:32:38 INFO [api.stepDefinitions.ClientSteps:145] - Deleted client with ID: 3
-13-09-2024 18:32:38 INFO [api.stepDefinitions.ClientSteps:145] - Deleted client with ID: 4
-13-09-2024 18:32:39 INFO [api.stepDefinitions.ClientSteps:145] - Deleted client with ID: 5
-13-09-2024 18:32:39 INFO [api.stepDefinitions.ClientSteps:145] - Deleted client with ID: 6
-13-09-2024 18:32:39 INFO [api.stepDefinitions.ClientSteps:145] - Deleted client with ID: 7
-13-09-2024 18:32:39 INFO [api.stepDefinitions.ClientSteps:145] - Deleted client with ID: 8
-13-09-2024 18:32:39 INFO [api.stepDefinitions.ClientSteps:145] - Deleted client with ID: 9
-13-09-2024 18:32:40 INFO [api.stepDefinitions.ClientSteps:145] - Deleted client with ID: 10
-13-09-2024 18:32:40 INFO [api.stepDefinitions.ClientSteps:145] - Deleted client with ID: 11
-13-09-2024 18:32:40 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
-13-09-2024 18:32:40 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Change the phone number of the first Client named Laura
-13-09-2024 18:32:40 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+13-09-2024 20:02:07 INFO [api.stepDefinitions.ClientSteps:189] - Updated client: Client(name=Laura, lastName=Smith, country=USA, city=New York, email=laura.smith@example.com, phone=555-987-6543, id=null)
+13-09-2024 20:02:08 INFO [api.stepDefinitions.ClientSteps:138] - Successfully Validated schema from Client object
+13-09-2024 20:02:08 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Mirta, lastName=Brown, country=Dominican Republic, city=Lake Coy, email=hugo.bradtke@hotmail.com, phone=611-294-1131 x1033, id=1)
+13-09-2024 20:02:08 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Augustus, lastName=Cummerata, country=Turkmenistan, city=North Jasper, email=brendon.conn@gmail.com, phone=(967) 081-8483 x18408, id=2)
+13-09-2024 20:02:08 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Broderick, lastName=Barton, country=Israel, city=West Myrtiemouth, email=mellie.littel@hotmail.com, phone=(350) 580-6191, id=3)
+13-09-2024 20:02:08 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Demarcus, lastName=Emard, country=Montserrat, city=Lake Karly, email=gordon.cassin@yahoo.com, phone=501.890.4950 x0487, id=4)
+13-09-2024 20:02:08 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Rob, lastName=Osinski, country=Syrian Arab Republic, city=Migueltown, email=matt.schumm@hotmail.com, phone=085-588-6815 x92651, id=5)
+13-09-2024 20:02:08 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Arthur, lastName=Sauer, country=Switzerland, city=Haichester, email=theresa.deckow@yahoo.com, phone=1-086-420-9166, id=6)
+13-09-2024 20:02:08 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Duncan, lastName=Stiedemann, country=Anguilla, city=Augustabury, email=rufus.kshlerin@yahoo.com, phone=(090) 543-6531 x388, id=7)
+13-09-2024 20:02:08 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Thomas, lastName=Wiza, country=British Indian Ocean Territory (Chagos Archipelago), city=Alyceview, email=tambra.auer@hotmail.com, phone=1-572-973-3620 x0474, id=8)
+13-09-2024 20:02:08 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Tawnya, lastName=Lebsack, country=Greece, city=West Lindy, email=dominque.bartell@gmail.com, phone=1-846-147-5288 x30122, id=9)
+13-09-2024 20:02:08 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Mora, lastName=Greenfelder, country=Martinique, city=Justinland, email=marylou.gleason@yahoo.com, phone=1-323-222-3544, id=10)
+13-09-2024 20:02:08 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Laura, lastName=Smith, country=USA, city=New York, email=laura.smith@example.com, phone=555-987-6543, id=11)
+13-09-2024 20:02:08 INFO [api.stepDefinitions.ClientSteps:204] - Deleted client with ID: 1
+13-09-2024 20:02:08 INFO [api.stepDefinitions.ClientSteps:204] - Deleted client with ID: 2
+13-09-2024 20:02:09 INFO [api.stepDefinitions.ClientSteps:204] - Deleted client with ID: 3
+13-09-2024 20:02:09 INFO [api.stepDefinitions.ClientSteps:204] - Deleted client with ID: 4
+13-09-2024 20:02:09 INFO [api.stepDefinitions.ClientSteps:204] - Deleted client with ID: 5
+13-09-2024 20:02:09 INFO [api.stepDefinitions.ClientSteps:204] - Deleted client with ID: 6
+13-09-2024 20:02:10 INFO [api.stepDefinitions.ClientSteps:204] - Deleted client with ID: 7
+13-09-2024 20:02:10 INFO [api.stepDefinitions.ClientSteps:204] - Deleted client with ID: 8
+13-09-2024 20:02:10 INFO [api.stepDefinitions.ClientSteps:204] - Deleted client with ID: 9
+13-09-2024 20:02:10 INFO [api.stepDefinitions.ClientSteps:204] - Deleted client with ID: 10
+13-09-2024 20:02:11 INFO [api.stepDefinitions.ClientSteps:204] - Deleted client with ID: 11
+13-09-2024 20:02:11 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+13-09-2024 20:02:11 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Change the phone number of the first Client named Laura
+13-09-2024 20:02:11 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
 ]]></system-out>
   </testcase>
-  <testcase name="Update and delete a New Client" classname="Client testing CRUD" time="1.63">
-    <system-out><![CDATA[13-09-2024 18:32:40 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
-13-09-2024 18:32:40 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update and delete a New Client
-13-09-2024 18:32:40 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
-13-09-2024 18:32:40 INFO [api.stepDefinitions.ClientSteps:39] - Created client: Client(name=Myesha, lastName=Auer, country=Guadeloupe, city=Aufderharville, email=delfina.collier@yahoo.com, phone=(616) 830-5819 x81222, id=071-35-9994)
-13-09-2024 18:32:41 INFO [api.stepDefinitions.ClientSteps:113] - [
+  <testcase name="Update and delete a New Client" classname="Client testing CRUD" time="1.597">
+    <system-out><![CDATA[13-09-2024 20:02:11 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+13-09-2024 20:02:11 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update and delete a New Client
+13-09-2024 20:02:11 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+13-09-2024 20:02:11 INFO [api.stepDefinitions.ClientSteps:47] - Created client: Client(name=Debi, lastName=Cronin, country=Zambia, city=New Hope, email=johnson.luettgen@hotmail.com, phone=(296) 662-8214 x058, id=313-14-1378)
+13-09-2024 20:02:11 INFO [api.stepDefinitions.ClientSteps:155] - [
     {
-        "name": "Myesha",
-        "lastName": "Auer",
-        "country": "Guadeloupe",
-        "city": "Aufderharville",
-        "email": "delfina.collier@yahoo.com",
-        "phone": "(616) 830-5819 x81222",
+        "name": "Debi",
+        "lastName": "Cronin",
+        "country": "Zambia",
+        "city": "New Hope",
+        "email": "johnson.luettgen@hotmail.com",
+        "phone": "(296) 662-8214 x058",
         "id": "1"
     }
 ]
-13-09-2024 18:32:41 INFO [api.stepDefinitions.ClientSteps:133] - Updated client: Client(name=Manuel, lastName=Muñoz, country=Colombia, city=Bogota, email=mf.munoz@globant.com, phone=999-543-1298, id=null)
-13-09-2024 18:32:41 INFO [api.stepDefinitions.ClientSteps:102] - Successfully Validated schema from Client object
-13-09-2024 18:32:41 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Manuel, lastName=Muñoz, country=Colombia, city=Bogota, email=mf.munoz@globant.com, phone=999-543-1298, id=1)
-13-09-2024 18:32:42 INFO [api.stepDefinitions.ClientSteps:145] - Deleted client with ID: 1
-13-09-2024 18:32:42 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
-13-09-2024 18:32:42 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Update and delete a New Client
-13-09-2024 18:32:42 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+13-09-2024 20:02:12 INFO [api.stepDefinitions.ClientSteps:189] - Updated client: Client(name=Manuel, lastName=Muñoz, country=Colombia, city=Bogota, email=mf.munoz@globant.com, phone=999-543-1298, id=null)
+13-09-2024 20:02:12 INFO [api.stepDefinitions.ClientSteps:138] - Successfully Validated schema from Client object
+13-09-2024 20:02:12 INFO [api.stepDefinitions.ClientSteps:75] - Client(name=Manuel, lastName=Muñoz, country=Colombia, city=Bogota, email=mf.munoz@globant.com, phone=999-543-1298, id=1)
+13-09-2024 20:02:12 INFO [api.stepDefinitions.ClientSteps:204] - Deleted client with ID: 1
+13-09-2024 20:02:12 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+13-09-2024 20:02:12 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Update and delete a New Client
+13-09-2024 20:02:12 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+]]></system-out>
+  </testcase>
+  <testcase name="Get the list of active resources" classname="Resource testing CRUD" time="4.739">
+    <system-out><![CDATA[13-09-2024 20:02:12 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+13-09-2024 20:02:12 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Get the list of active resources
+13-09-2024 20:02:12 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+13-09-2024 20:02:13 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Incredible Copper Watch, trademark=Wisoky-Homenick, stock=18098, price=183.85, description=Enim quidem beatae sunt cupiditate doloribus., tags=[ducimus, eum, facilis], active=true, id=449-22-2707)
+13-09-2024 20:02:13 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Synergistic Linen Knife, trademark=Hahn, Barton and Runolfsdottir, stock=66319, price=519.34, description=Et blanditiis quasi quos repellendus iure., tags=[dolor, earum, ut], active=true, id=312-06-4984)
+13-09-2024 20:02:13 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Ergonomic Plastic Watch, trademark=Muller Inc, stock=22198, price=846.16, description=Omnis et similique consequuntur et molestias aut rerum., tags=[et, ut, nostrum], active=true, id=509-24-5036)
+13-09-2024 20:02:13 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Awesome Granite Bench, trademark=Berge and Sons, stock=42660, price=306.6, description=Natus quo eum eos., tags=[cumque, doloremque, amet], active=true, id=794-68-4998)
+13-09-2024 20:02:14 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Awesome Bronze Bag, trademark=Schiller, Mosciski and Langosh, stock=27326, price=551.93, description=Sit qui minus aliquam voluptas est., tags=[nostrum, eos, non], active=true, id=616-61-9544)
+13-09-2024 20:02:14 INFO [api.stepDefinitions.ResourceSteps:63] - Active Resources: [Resource(name=Incredible Copper Watch, trademark=Wisoky-Homenick, stock=18098, price=183.85, description=Enim quidem beatae sunt cupiditate doloribus., tags=[ducimus, eum, facilis], active=true, id=1), Resource(name=Synergistic Linen Knife, trademark=Hahn, Barton and Runolfsdottir, stock=66319, price=519.34, description=Et blanditiis quasi quos repellendus iure., tags=[dolor, earum, ut], active=true, id=2), Resource(name=Ergonomic Plastic Watch, trademark=Muller Inc, stock=22198, price=846.16, description=Omnis et similique consequuntur et molestias aut rerum., tags=[et, ut, nostrum], active=true, id=3), Resource(name=Awesome Granite Bench, trademark=Berge and Sons, stock=42660, price=306.6, description=Natus quo eum eos., tags=[cumque, doloremque, amet], active=true, id=4), Resource(name=Awesome Bronze Bag, trademark=Schiller, Mosciski and Langosh, stock=27326, price=551.93, description=Sit qui minus aliquam voluptas est., tags=[nostrum, eos, non], active=true, id=5)]
+13-09-2024 20:02:14 INFO [api.stepDefinitions.ResourceSteps:137] - Updated resource to inactive: Resource(name=Incredible Copper Watch, trademark=Wisoky-Homenick, stock=18098, price=183.85, description=Enim quidem beatae sunt cupiditate doloribus., tags=[ducimus, eum, facilis], active=false, id=1)
+13-09-2024 20:02:14 INFO [api.stepDefinitions.ResourceSteps:140] - Successfully Validated schema from Resource object
+13-09-2024 20:02:15 INFO [api.stepDefinitions.ResourceSteps:137] - Updated resource to inactive: Resource(name=Synergistic Linen Knife, trademark=Hahn, Barton and Runolfsdottir, stock=66319, price=519.34, description=Et blanditiis quasi quos repellendus iure., tags=[dolor, earum, ut], active=false, id=2)
+13-09-2024 20:02:15 INFO [api.stepDefinitions.ResourceSteps:140] - Successfully Validated schema from Resource object
+13-09-2024 20:02:15 INFO [api.stepDefinitions.ResourceSteps:137] - Updated resource to inactive: Resource(name=Ergonomic Plastic Watch, trademark=Muller Inc, stock=22198, price=846.16, description=Omnis et similique consequuntur et molestias aut rerum., tags=[et, ut, nostrum], active=false, id=3)
+13-09-2024 20:02:15 INFO [api.stepDefinitions.ResourceSteps:140] - Successfully Validated schema from Resource object
+13-09-2024 20:02:15 INFO [api.stepDefinitions.ResourceSteps:137] - Updated resource to inactive: Resource(name=Awesome Granite Bench, trademark=Berge and Sons, stock=42660, price=306.6, description=Natus quo eum eos., tags=[cumque, doloremque, amet], active=false, id=4)
+13-09-2024 20:02:15 INFO [api.stepDefinitions.ResourceSteps:140] - Successfully Validated schema from Resource object
+13-09-2024 20:02:15 INFO [api.stepDefinitions.ResourceSteps:137] - Updated resource to inactive: Resource(name=Awesome Bronze Bag, trademark=Schiller, Mosciski and Langosh, stock=27326, price=551.93, description=Sit qui minus aliquam voluptas est., tags=[nostrum, eos, non], active=false, id=5)
+13-09-2024 20:02:15 INFO [api.stepDefinitions.ResourceSteps:140] - Successfully Validated schema from Resource object
+13-09-2024 20:02:16 INFO [api.stepDefinitions.ResourceSteps:75] - Resource(name=Incredible Copper Watch, trademark=Wisoky-Homenick, stock=18098, price=183.85, description=Enim quidem beatae sunt cupiditate doloribus., tags=[ducimus, eum, facilis], active=false, id=1)
+13-09-2024 20:02:16 INFO [api.stepDefinitions.ResourceSteps:75] - Resource(name=Synergistic Linen Knife, trademark=Hahn, Barton and Runolfsdottir, stock=66319, price=519.34, description=Et blanditiis quasi quos repellendus iure., tags=[dolor, earum, ut], active=false, id=2)
+13-09-2024 20:02:16 INFO [api.stepDefinitions.ResourceSteps:75] - Resource(name=Ergonomic Plastic Watch, trademark=Muller Inc, stock=22198, price=846.16, description=Omnis et similique consequuntur et molestias aut rerum., tags=[et, ut, nostrum], active=false, id=3)
+13-09-2024 20:02:16 INFO [api.stepDefinitions.ResourceSteps:75] - Resource(name=Awesome Granite Bench, trademark=Berge and Sons, stock=42660, price=306.6, description=Natus quo eum eos., tags=[cumque, doloremque, amet], active=false, id=4)
+13-09-2024 20:02:16 INFO [api.stepDefinitions.ResourceSteps:75] - Resource(name=Awesome Bronze Bag, trademark=Schiller, Mosciski and Langosh, stock=27326, price=551.93, description=Sit qui minus aliquam voluptas est., tags=[nostrum, eos, non], active=false, id=5)
+13-09-2024 20:02:16 INFO [api.stepDefinitions.ResourceSteps:118] - Deleted resource with ID: 1
+13-09-2024 20:02:16 INFO [api.stepDefinitions.ResourceSteps:118] - Deleted resource with ID: 2
+13-09-2024 20:02:16 INFO [api.stepDefinitions.ResourceSteps:118] - Deleted resource with ID: 3
+13-09-2024 20:02:17 INFO [api.stepDefinitions.ResourceSteps:118] - Deleted resource with ID: 4
+13-09-2024 20:02:17 INFO [api.stepDefinitions.ResourceSteps:118] - Deleted resource with ID: 5
+13-09-2024 20:02:17 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+13-09-2024 20:02:17 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Get the list of active resources
+13-09-2024 20:02:17 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+]]></system-out>
+  </testcase>
+  <testcase name="Update the last created resource" classname="Resource testing CRUD" time="4.422">
+    <failure message="expected:&lt;200&gt; but was:&lt;429&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<200> but was:<429>
+	at com.testing.api.stepDefinitions.ResourceSteps.theResourceResponseShouldHaveAStatusCodeOf(ResourceSteps.java:93)
+	at ✽.the resource response should have a status code of 200(file:///C:/Users/santiago.arenas/Downloads/assuredApi/assuredApi/src/test/resources/features/resource_testing_crud.feature:16)
+]]></failure>
+    <system-out><![CDATA[13-09-2024 20:02:17 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+13-09-2024 20:02:17 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update the last created resource
+13-09-2024 20:02:17 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+13-09-2024 20:02:17 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Aerodynamic Steel Computer, trademark=Schiller and Sons, stock=67763, price=303.65, description=Officia voluptas autem doloribus velit maxime., tags=[blanditiis, porro, nemo], active=true, id=215-16-1769)
+13-09-2024 20:02:18 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Small Steel Bag, trademark=Flatley Inc, stock=66222, price=213.59, description=Voluptas doloribus minus blanditiis aut., tags=[unde, dignissimos, consequuntur], active=true, id=110-89-1884)
+13-09-2024 20:02:18 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Rustic Granite Gloves, trademark=Herzog-Sawayn, stock=33767, price=430.0, description=Mollitia consectetur cumque ut dolores., tags=[doloremque, qui, dolores], active=true, id=317-14-7826)
+13-09-2024 20:02:18 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Durable Copper Plate, trademark=Hintz LLC, stock=65525, price=735.79, description=In et ut illo exercitationem officia placeat rerum., tags=[soluta, consequatur, aut], active=true, id=201-45-3472)
+13-09-2024 20:02:18 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Incredible Paper Gloves, trademark=Ziemann-Lubowitz, stock=22126, price=95.93, description=A est nulla rerum neque labore repudiandae soluta., tags=[esse, ipsum, in], active=true, id=202-06-5226)
+13-09-2024 20:02:19 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Aerodynamic Marble Keyboard, trademark=Botsford Inc, stock=85248, price=776.06, description=Numquam itaque enim., tags=[molestias, libero, et], active=true, id=311-96-6457)
+13-09-2024 20:02:19 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Small Copper Plate, trademark=Beahan-Kuphal, stock=12698, price=348.03, description=Sunt id voluptas., tags=[quae, repudiandae, quod], active=true, id=499-01-1976)
+13-09-2024 20:02:19 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Lightweight Bronze Bag, trademark=Zemlak, Jerde and Windler, stock=56318, price=739.53, description=Nisi ipsam sit et itaque., tags=[quidem, omnis, rem], active=true, id=545-39-5216)
+13-09-2024 20:02:19 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Intelligent Concrete Computer, trademark=Hauck Inc, stock=61192, price=255.4, description=Velit quo magni facere magni sapiente., tags=[blanditiis, et, iste], active=true, id=640-32-3226)
+13-09-2024 20:02:20 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Incredible Steel Table, trademark=Koss, Torphy and Bashirian, stock=62931, price=575.78, description=Perspiciatis eos voluptates et suscipit., tags=[aut, dolorum, sint], active=true, id=309-64-7765)
+13-09-2024 20:02:20 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Rustic Iron Keyboard, trademark=Reilly, Franecki and Koch, stock=95672, price=684.71, description=Dicta et quam sint occaecati., tags=[rerum, et, sit], active=true, id=319-51-0554)
+13-09-2024 20:02:20 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Awesome Steel Plate, trademark=Luettgen-Flatley, stock=20635, price=454.79, description=Consequuntur ut alias consectetur non., tags=[ut, neque, voluptatem], active=true, id=399-15-8141)
+13-09-2024 20:02:20 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Synergistic Rubber Table, trademark=Anderson and Sons, stock=65529, price=840.04, description=Non omnis molestiae rerum omnis., tags=[omnis, error, sed], active=true, id=102-74-5376)
+13-09-2024 20:02:20 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Lightweight Copper Car, trademark=Dare and Sons, stock=81304, price=597.37, description=Totam rerum repudiandae consequuntur qui., tags=[incidunt, dolore, exercitationem], active=true, id=651-39-9777)
+13-09-2024 20:02:21 INFO [api.stepDefinitions.ResourceSteps:46] - Created resource: Resource(name=Small Copper Bench, trademark=Keebler-Beatty, stock=17426, price=360.89, description=Quae voluptas quis autem dicta., tags=[voluptatem, qui, deserunt], active=true, id=504-30-0872)
+13-09-2024 20:02:21 INFO [api.stepDefinitions.ResourceSteps:154] - Latest resource found: Resource(name=Small Copper Bench, trademark=Keebler-Beatty, stock=17426, price=360.89, description=Quae voluptas quis autem dicta., tags=[voluptatem, qui, deserunt], active=true, id=15)
+13-09-2024 20:02:21 INFO [api.stepDefinitions.ResourceSteps:173] - Updated resource: Resource(name=Computer, trademark=Globant, stock=55, price=200.05, description=New Computer, tags=computer, PC, tech, coding, active=false, id=15)
+13-09-2024 20:02:21 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+13-09-2024 20:02:21 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Update the last created resource
+13-09-2024 20:02:21 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
 ]]></system-out>
   </testcase>
 </testsuite>

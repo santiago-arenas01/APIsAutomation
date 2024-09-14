@@ -4,9 +4,17 @@ import com.github.javafaker.Faker;
 import com.testing.api.models.Client;
 import com.testing.api.models.Resource;
 
+/**
+ * The type Randoms.
+ */
 public class Randoms {
     private static final Faker faker = new Faker();
 
+    /**
+     * Create random client.
+     *
+     * @return the client
+     */
     public static Client createRandomClient() {
         return Client.builder()
                 .name(faker.name().firstName())
@@ -19,6 +27,11 @@ public class Randoms {
                 .build();
     }
 
+    /**
+     * Create random resource.
+     *
+     * @return the resource
+     */
     public static Resource createRandomResource() {
         return Resource.builder()
                 .name(faker.commerce().productName())
